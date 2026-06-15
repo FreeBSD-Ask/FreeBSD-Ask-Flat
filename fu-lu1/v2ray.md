@@ -93,13 +93,13 @@ $ export HTTPS_PROXY="http://127.0.0.1:10809" # Set HTTPS proxy
 $ export ALL_PROXY="socks5://127.0.0.1:10808" # Set SOCKS5 proxy
 ```
 
-For persistent configuration, use the user classification method.
+For persistent configuration, use the login class method.
 
 After completing the setup, visit a web page in the Firefox browser and observe the V2Ray logs to confirm that browser traffic is being forwarded through the proxy. Command-line programs in the terminal also access the network through the proxy, but some commands support environment variables differently; you need to check their proxy configuration methods based on the specific software.
 
 ## Proxy Traffic Routing
 
-Some websites do not need to be accessed through a proxy server, such as domestic websites or local network resources, and require routing treatment.
+Some websites do not need to be accessed through a proxy server, such as websites within China or local network resources, and require routing treatment.
 
 Open the config.json file and find the routing attribute. The rules sub-attribute within it is used to configure traffic routing rules; each rule typically contains matching conditions such as ip or domain. When an IP or domain matches a rule, V2Ray forwards the traffic to the corresponding outbound configuration based on the outboundTag (e.g., proxy for proxy, direct for direct connection, block for blocking). Configure the domains or IPs that need routing into the corresponding rules; for details, refer to the [V2Ray official documentation](https://www.v2fly.org/). Configuration files exported from V2Ray clients typically include default routing rules.
 
@@ -157,7 +157,7 @@ Specify the resource path via an environment variable; this approach is suitable
 
 **Persistent Configuration**
 
-Persist the configuration through the user classification method so that the environment variable takes effect automatically at each login, regardless of the shell type. Edit the **~/.login_conf** file:
+Persist the configuration through the login class method so that the environment variable takes effect automatically at each login, regardless of the shell type. Edit the **~/.login_conf** file:
 
 ```ini
 me:\

@@ -1,4 +1,4 @@
-# Subscribing to FreeBSD Mailing Lists
+# FreeBSD Mailing List Subscription
 
 ## Overview
 

@@ -55,7 +55,7 @@ This glossary collects the technical terms covered in this book, arranged in the
 | CDDL | 通用开发与发行许可 | Common Development and Distribution License, an open source license created by Sun Microsystems for OpenSolaris, adopted by projects such as ZFS, allowing commercial use and modification |
 | TCP/IP | 传输控制协议/网际协议 | Transmission Control Protocol/Internet Protocol, the foundational protocol suite of the Internet |
 | 校验和 | / | Checksum, a fixed-length value obtained by performing a specific algorithm on a data sequence, used to detect whether errors have occurred during data transmission or storage |
-| 哈希函数 | / | Hash Function, also known as a hash function, a function that maps data of arbitrary length to a fixed-length value, used for data integrity verification and digital signatures |
+| 哈希函数 | / | Hash Function, a function that maps data of arbitrary length to a fixed-length value, used for data integrity verification and digital signatures |
 | 内核错误（Kernel Panic） | / | Kernel Panic, a self-protection mechanism invoked when the operating system kernel encounters an unrecoverable fatal error; the system stops running and displays an error message |
 | 分发文件 | / | Distribution Set, a collection of compressed packages in the FreeBSD installation media divided by function, such as base, kernel, src, lib32, etc. |
 | 无线管制域 | / | Regulatory Domain, a legally defined region specifying the frequency, power, and other parameters for wireless device usage in each country or region |
@@ -153,8 +153,8 @@ This glossary collects the technical terms covered in this book, arranged in the
 | NetBSD | / | A portability-focused BSD operating system founded in 1993 |
 | DragonFly BSD | / | A BSD operating system forked from FreeBSD 4.8 by Matthew Dillon in 2003 |
 | LLVM | / | LLVM is not an acronym (it once stood for Low Level Virtual Machine, but is no longer officially treated as one), referring to a collection of modular and reusable compiler and toolchain technology projects (see LLVM Project. LLVM FAQ[EB/OL]. [2026-04-16]. <https://llvm.org/>. This page is the LLVM official overview page) |
-| 编译程序 | / | Compiler, also known as a compiler, a program that translates high-level programming language source code into machine code or intermediate code |
-| 解释程序 | / | Interpreter, also known as an interpreter, a program that reads and executes high-level programming language source code line by line |
+| 编译程序 | / | Compiler, a program that translates high-level programming language source code into machine code or intermediate code |
+| 解释程序 | / | Interpreter, a program that reads and executes high-level programming language source code line by line |
 | Clang | / | The C/C++ language frontend and tool infrastructure of the LLVM project |
 | NFS | 网络文件系统 | Network File System, a distributed file system protocol |
 | SMB | 服务器消息块 | Server Message Block, a protocol used for file sharing |
