@@ -1,4 +1,4 @@
-# 3.3 macOS User Migration Guide
+# 3.3 Migration Guide for macOS Users
 
 macOS shares a large number of BSD components with FreeBSD, so migrating from macOS to FreeBSD has a lower barrier to entry for the command line compared to migrating from Windows.
 

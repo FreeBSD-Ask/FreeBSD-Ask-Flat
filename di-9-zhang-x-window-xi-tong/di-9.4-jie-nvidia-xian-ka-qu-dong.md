@@ -1,4 +1,4 @@
-# 9.4 NVIDIA Graphics Driver
+# 9.4 NVIDIA Graphics Drivers
 
 ## NVIDIA Graphics Driver Overview
 

@@ -1,4 +1,4 @@
-# 8.6 Installing Software Using DVD
+# 8.6 Installing Software from DVD
 
 ## Mounting the DVD
 
