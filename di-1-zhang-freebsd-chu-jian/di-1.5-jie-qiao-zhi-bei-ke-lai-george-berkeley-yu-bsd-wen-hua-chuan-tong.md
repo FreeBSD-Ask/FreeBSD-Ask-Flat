@@ -44,20 +44,6 @@ Time's noblest offspring is the last.
 
 BERKELEY G. Verses on the Prospect of Planting Arts and Learning in America[C]//A miscellany, containing several tracts on various subjects. London: Printed for J. and R. Tonson, and S. Draper, 1752.
 
-Translation:
-
-The Muse, weary of this age and clime / barren of any glorious theme / awaits a better time in distant lands / to produce subjects worthy of fame.
-
-In those happy lands / where the genial sun / and virgin earth interplay / the power of art seems surpassed by nature / and imagined beauty yields to the true.
-
-In those happy lands / the dwelling of innocence / where nature guides and virtue rules / people no longer pass off / the pedantry of courts and schools / as truth and reason.
-
-There / another golden age shall be sung / the rise of empire and of arts / the good and the great inspiring epic passion / the wisest minds and noblest hearts.
-
-Not such as Europe breeds in her decay / but such as she bred when fresh and young / when heavenly fire once animated her clay / future poets shall sing of it / the course of empire / takes its way westward.
-
-The first four acts have concluded / the fifth shall close the drama with the day / time's noblest offspring / always appears last.
-
 ## A Brief Biography of George Berkeley
 
 In many works and documents, George Berkeley is often referred to as the Bishop of Cloyne or Bishop Berkeley.
