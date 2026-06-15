@@ -39,15 +39,13 @@ jobs:
       - name: 检查或创建初始标签
         working-directory: FreeBSD-Ask
         run: |
-          timedatectl
-          if ! git describe --tags --abbrev=0 2>/dev/null; then
-            echo "创建初始标签 v0.0.0"
-            git config --global user.email "actions@github.com"
-            git config --global user.name "GitHub Actions"
-            git tag v0.0.0
-            git push origin v0.0.0
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          PREVIOUS_TAG=$(git describe --tags --abbrev=0 --match "$TAG_PATTERN" 2>/dev/null || true)
+          if [ -z "$PREVIOUS_TAG" ] || [ "$PREVIOUS_TAG" = "HEAD" ]; then
+            echo "警告：未找到匹配的先前标签，将使用默认基准标签 'v0.0.0'"
+            PREVIOUS_TAG="v0.0.0"
           fi
-
       # ================= 环境配置部分 =================
       - name: 设置 Python 环境
         uses: actions/setup-python@v6
