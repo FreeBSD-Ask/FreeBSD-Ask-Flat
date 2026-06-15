@@ -1,4 +1,4 @@
-# 8.1 Overview of the FreeBSD Package Manager
+# 8.1 Overview of FreeBSD Package Manager
 
 ## Software Repository Overview
 

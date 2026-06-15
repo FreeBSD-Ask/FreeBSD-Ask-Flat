@@ -1,4 +1,4 @@
-# 9.9 root User Desktop Login
+# 9.9 Root User Desktop Login
 
 > **Warning**
 >

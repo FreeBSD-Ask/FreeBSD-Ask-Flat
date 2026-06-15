@@ -1,4 +1,4 @@
-# 8.4 Installing Software from Source Code Using Ports
+# 8.4 Installing Software from Source with Ports
 
 Ports is FreeBSD's framework for building software from source code, suitable for scenarios requiring custom compilation options, patching, or installing software not included in the pkg repository.
 

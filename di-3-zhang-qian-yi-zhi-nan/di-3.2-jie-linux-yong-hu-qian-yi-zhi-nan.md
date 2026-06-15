@@ -1,4 +1,4 @@
-# 3.2 Linux User Migration Guide
+# 3.2 Migration Guide for Linux Users
 
 Linux and FreeBSD are both UNIX-like operating systems, but they differ fundamentally in kernel architecture, package management philosophy, and system design principles. Deeply understanding BSD's construction approach and original intent is no easy task, and the resulting disappointment is inevitable.
 

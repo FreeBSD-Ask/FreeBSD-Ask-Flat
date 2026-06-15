@@ -1,4 +1,4 @@
-# 9.2 Intel Graphics Driver
+# 9.2 Intel Graphics Drivers
 
 This section covers the driver installation and configuration for Intel integrated graphics (i915 DRM module). Please read the Graphics Driver Overview first.
 
