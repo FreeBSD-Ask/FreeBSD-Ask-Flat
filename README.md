@@ -6,8 +6,6 @@
 
 FreeBSD is a truly free (Liberty) **operating system** that, in this unpredictable world, still upholds the BSD UNIX philosophy — **abiding by ancient principles, pursuing true freedom**.
 
-"Getting started" is a joy, and "running away" is a form of open-mindedness. "I came on a whim, and I leave on a whim — why must it be FreeBSD!" (Adapted from Biography of Wang Huizhi, appended to Biography of Wang Xizhi[M]//Fang Xuanling. Book of Jin. Beijing: Zhonghua Book Company, 1996)
-
 ## Summary
 
 > **Note**
