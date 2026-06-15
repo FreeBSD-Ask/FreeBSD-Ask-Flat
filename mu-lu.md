@@ -1,7 +1,7 @@
-# Table of Contents
+# 目录
 
 * [FreeBSD Ask](README.md)
-* [Changelog](CHANGELOG.md)
+* [Editor's Log](CHANGELOG.md)
 * [Contributing Guide and Open Tasks](CONTRIBUTING.md)
 * [Table of Contents](mu-lu.md)
 
@@ -9,7 +9,7 @@
 
 * [Preface](qian-yan/qian-yan.md)
 * [Introduction](qian-yan/xu-lun.md)
-* [To the Reader: Emancipate the Mind, Return to Authenticity, Uphold Humanism, and Reject the Wrong Path of the Philosophy of Suffering](qian-yan/zhi-du-zhe-jie-fang-si-xiang-hui-gui-ben-zhen-gao-yang-ren-dao-zhu-yi-bu-zou-ku-nan-zhe-xue-de-xie-lu.md)
+* [To the Reader: Emancipate the Mind, Return to Authenticity, Uphold Humanism, and Reject the False Path of Suffering Philosophy](qian-yan/zhi-du-zhe-jie-fang-si-xiang-hui-gui-ben-zhen-gao-yang-ren-dao-zhu-yi-bu-zou-ku-nan-zhe-xue-de-xie-lu.md)
 * [Acknowledgments](qian-yan/zhi-xie.md)
 
 ## Chapter 1: First Encounter with FreeBSD
@@ -44,18 +44,18 @@
 
 ## Chapter 5: Installing FreeBSD on Virtualization Platforms
 
-* [5.1 Installing FreeBSD Using VMware Workstation Pro](di-5-zhang-xu-ni-hua-ping-tai-an-zhuang-freebsd/di-5.1-jie-shi-yong-vmware-workstation-pro-an-zhuang-freebsd.md)
-* [5.2 Installing FreeBSD Using VirtualBox](di-5-zhang-xu-ni-hua-ping-tai-an-zhuang-freebsd/di-5.2-jie-shi-yong-virtualbox-an-zhuang-freebsd.md)
-* [5.3 Installing FreeBSD Using Hyper-V](di-5-zhang-xu-ni-hua-ping-tai-an-zhuang-freebsd/di-5.3-jie-shi-yong-hyper-v-an-zhuang-freebsd.md)
+* [5.1 Installing FreeBSD with VMware Workstation Pro](di-5-zhang-xu-ni-hua-ping-tai-an-zhuang-freebsd/di-5.1-jie-shi-yong-vmware-workstation-pro-an-zhuang-freebsd.md)
+* [5.2 Installing FreeBSD with VirtualBox](di-5-zhang-xu-ni-hua-ping-tai-an-zhuang-freebsd/di-5.2-jie-shi-yong-virtualbox-an-zhuang-freebsd.md)
+* [5.3 Installing FreeBSD with Hyper-V](di-5-zhang-xu-ni-hua-ping-tai-an-zhuang-freebsd/di-5.3-jie-shi-yong-hyper-v-an-zhuang-freebsd.md)
 * [5.4 Installing FreeBSD on Apple M1 with Parallels Desktop](di-5-zhang-xu-ni-hua-ping-tai-an-zhuang-freebsd/di-5.4-jie-ji-yu-apple-m1-he-parallels-desktop-an-zhuang-freebsd.md)
 * [5.5 Installing FreeBSD on Apple M1 with VMware Fusion Pro](di-5-zhang-xu-ni-hua-ping-tai-an-zhuang-freebsd/di-5.5-jie-ji-yu-apple-m1-he-vmware-fusion-pro-an-zhuang-freebsd.md)
 
-## Chapter 6: Command-Line Environment
+## Chapter 6: Command Line Environment
 
 * [6.1 Virtual Consoles and Terminals](di-6-zhang-ming-ling-xing-huan-jing/di-6.1-jie-xu-ni-kong-zhi-tai-he-zhong-duan.md)
 * [6.2 Shell Basics](di-6-zhang-ming-ling-xing-huan-jing/di-6.2-jie-shell.md)
 * [6.3 Switching Shells](di-6-zhang-ming-ling-xing-huan-jing/di-6.3-jie-qie-huan-shell.md)
-* [6.4 Command-Line Basics](di-6-zhang-ming-ling-xing-huan-jing/di-6.4-jie-ming-ling-xing-ji-chu.md)
+* [6.4 Command Line Basics](di-6-zhang-ming-ling-xing-huan-jing/di-6.4-jie-ming-ling-xing-ji-chu.md)
 * [6.5 Text Editors](di-6-zhang-ming-ling-xing-huan-jing/di-6.5-jie-wen-ben-bian-ji-qi.md)
 * [6.6 Compression and Decompression](di-6-zhang-ming-ling-xing-huan-jing/di-6.6-jie-ya-suo-he-jie-ya-suo.md)
 
@@ -73,12 +73,12 @@
 * [8.1 Overview of FreeBSD Package Manager](di-8-zhang-ruan-jian-guan-li/di-8.1-jie-freebsd-bao-guan-li-qi-gai-shu.md)
 * [8.2 FreeBSD Software Repositories](di-8-zhang-ruan-jian-guan-li/di-8.2-jie-freebsd-ruan-jian-yuan.md)
 * [8.3 Managing Binary Packages with pkg](di-8-zhang-ruan-jian-guan-li/di-8.3-jie-shi-yong-pkg-guan-li-er-jin-zhi-bao.md)
-* [8.4 Installing Software from Source Using Ports](di-8-zhang-ruan-jian-guan-li/di-8.4-jie-shi-yong-ports-yi-yuan-dai-ma-fang-shi-an-zhuang-ruan-jian.md)
+* [8.4 Installing Software from Source with Ports](di-8-zhang-ruan-jian-guan-li/di-8.4-jie-shi-yong-ports-yi-yuan-dai-ma-fang-shi-an-zhuang-ruan-jian.md)
 * [8.5 Ports Build Tuning](di-8-zhang-ruan-jian-guan-li/di-8.5-jie-ports-gou-jian-diao-you.md)
 * [8.6 Installing Software from DVD](di-8-zhang-ruan-jian-guan-li/di-8.6-jie-shi-yong-dvd-an-zhuang-ruan-jian.md)
 * [8.7 Current Status of FreeBSD Mirror Sites](di-8-zhang-ruan-jian-guan-li/di-8.7-jie-freebsd-jing-xiang-zhan-xian-zhuang.md)
 
-## Chapter 9: The X Window System
+## Chapter 9: X Window System
 
 * [9.1 Overview of Graphics Drivers](di-9-zhang-x-window-xi-tong/di-9.1-jie-xian-ka-qu-dong-gai-lun.md)
 * [9.2 Intel Graphics Drivers](di-9-zhang-x-window-xi-tong/di-9.2-jie-intel-xian-ka-qu-dong.md)
@@ -105,7 +105,7 @@
 * [11.1 Sound Cards](di-11-zhang-duo-mei-ti-he-wai-bu-she-bei/di-11.1-jie-sheng-ka.md)
 * [11.2 Printers](di-11-zhang-duo-mei-ti-he-wai-bu-she-bei/di-11.2-jie-da-yin-ji.md)
 * [11.3 Webcams](di-11-zhang-duo-mei-ti-he-wai-bu-she-bei/di-11.3-jie-she-xiang-tou.md)
-* [11.4 Human Input Devices](di-11-zhang-duo-mei-ti-he-wai-bu-she-bei/di-11.4-jie-ren-ji-shu-ru-she-bei.md)
+* [11.4 Human Interface Devices](di-11-zhang-duo-mei-ti-he-wai-bu-she-bei/di-11.4-jie-ren-ji-shu-ru-she-bei.md)
 * [11.5 Audio Players](di-11-zhang-duo-mei-ti-he-wai-bu-she-bei/di-11.5-jie-yin-pin-bo-fang-qi.md)
 * [11.6 Video Players](di-11-zhang-duo-mei-ti-he-wai-bu-she-bei/di-11.6-jie-shi-pin-bo-fang-qi.md)
 * [11.7 Multimedia Processing](di-11-zhang-duo-mei-ti-he-wai-bu-she-bei/di-11.7-jie-duo-mei-ti-chu-li.md)
@@ -125,7 +125,7 @@
 * [13.1 Updating FreeBSD with freebsd-update](di-13-zhang-freebsd-xi-tong-geng-xin/di-13.1-jie-shi-yong-freebsd-update-geng-xin-freebsd.md)
 * [13.2 Updating FreeBSD from Source](di-13-zhang-freebsd-xi-tong-geng-xin/di-13.2-jie-shi-yong-yuan-dai-ma-geng-xin-freebsd.md)
 * [13.3 Updating the Base System with PkgBase](di-13-zhang-freebsd-xi-tong-geng-xin/di-13.3-jie-shi-yong-pkgbase-geng-xin-ji-ben-xi-tong.md)
-* [13.4 Multi-Version Coexistence via ZFS Boot Environments](di-13-zhang-freebsd-xi-tong-geng-xin/di-13.4-jie-tong-guo-zfs-qi-dong-huan-jing-shi-xian-duo-ban-ben-gong-cun.md)
+* [13.4 Multi-version Coexistence via ZFS Boot Environments](di-13-zhang-freebsd-xi-tong-geng-xin/di-13.4-jie-tong-guo-zfs-qi-dong-huan-jing-shi-xian-duo-ban-ben-gong-cun.md)
 
 ## Chapter 14: User Accounts and Permissions
 
@@ -144,9 +144,9 @@
 
 ## Chapter 16: Advanced FreeBSD Installation
 
-* [16.1 Installing a Dual-Boot System (FreeBSD Installed First)](di-16-zhang-freebsd-gao-ji-an-zhuang/di-16.1-jie-an-zhuang-shuang-xi-tong-xian-an-zhuang-freebsd.md)
-* [16.2 Installing a Dual-Boot System (FreeBSD Installed Second)](di-16-zhang-freebsd-gao-ji-an-zhuang/di-16.2-jie-an-zhuang-shuang-xi-tong-hou-an-zhuang-freebsd.md)
-* [16.3 Installing FreeBSD on Tencent Cloud Lightweight Cloud (Legacy Boot and MBR Partition Table)](di-16-zhang-freebsd-gao-ji-an-zhuang/di-16.3-jie-teng-xun-yun-qing-liang-yun-an-zhuang-freebsd-chuan-tong-yin-dao-he-mbr-fen-qu-biao.md)
+* [16.1 Dual Boot Installation (FreeBSD Installed First)](di-16-zhang-freebsd-gao-ji-an-zhuang/di-16.1-jie-an-zhuang-shuang-xi-tong-xian-an-zhuang-freebsd.md)
+* [16.2 Dual Boot Installation (FreeBSD Installed Second)](di-16-zhang-freebsd-gao-ji-an-zhuang/di-16.2-jie-an-zhuang-shuang-xi-tong-hou-an-zhuang-freebsd.md)
+* [16.3 Installing FreeBSD on Tencent Cloud Lighthouse (Legacy Boot and MBR Partition Table)](di-16-zhang-freebsd-gao-ji-an-zhuang/di-16.3-jie-teng-xun-yun-qing-liang-yun-an-zhuang-freebsd-chuan-tong-yin-dao-he-mbr-fen-qu-biao.md)
 * [16.4 Installing FreeBSD on KVM, QEMU, and Other Platforms (Legacy Boot and MBR Partition Table)](di-16-zhang-freebsd-gao-ji-an-zhuang/di-16.4-jie-kvm-qemu-deng-ping-tai-an-zhuang-freebsd-chuan-tong-yin-dao-he-mbr-fen-qu-biao.md)
 * [16.5 Installing FreeBSD on Alibaba Cloud Lightweight Application Server (UEFI and GPT Partition Table)](di-16-zhang-freebsd-gao-ji-an-zhuang/di-16.5-jie-a-li-yun-qing-liang-ying-yong-fu-wu-qi-an-zhuang-freebsd-uefi-he-gpt-fen-qu-biao.md)
 * [16.6 Installing RISC-V FreeBSD with QEMU (on x86 Windows Host)](di-16-zhang-freebsd-gao-ji-an-zhuang/di-16.6-jie-qemu-an-zhuang-risc-v-freebsd-ji-yu-x86-windows-zhu-ji.md)
@@ -178,11 +178,11 @@
 
 ## Chapter 19: Games, Scientific Computing, and Professional Tools
 
-* [19.1 Godot Open-Source Game Engine](di-19-zhang-you-xi-ke-xue-ji-suan-he-zhuan-ye-gong-ju/di-19.1-jie-godot-kai-yuan-you-xi-yin-qing.md)
+* [19.1 Godot Open Source Game Engine](di-19-zhang-you-xi-ke-xue-ji-suan-he-zhuan-ye-gong-ju/di-19.1-jie-godot-kai-yuan-you-xi-yin-qing.md)
 * [19.2 Minecraft Server](di-19-zhang-you-xi-ke-xue-ji-suan-he-zhuan-ye-gong-ju/di-19.2-jie-wo-de-shi-jie-minecraft-fu-wu-qi.md)
 * [19.3 Minecraft](di-19-zhang-you-xi-ke-xue-ji-suan-he-zhuan-ye-gong-ju/di-19.3-jie-wo-de-shi-jie-minecraft.md)
 * [19.4 Steam Client](di-19-zhang-you-xi-ke-xue-ji-suan-he-zhuan-ye-gong-ju/di-19.4-jie-steam-ke-hu-duan.md)
-* [19.5 The R Language](di-19-zhang-you-xi-ke-xue-ji-suan-he-zhuan-ye-gong-ju/di-19.5-jie-R-yu-yan.md)
+* [19.5 R Language](di-19-zhang-you-xi-ke-xue-ji-suan-he-zhuan-ye-gong-ju/di-19.5-jie-R-yu-yan.md)
 * [19.6 Wine](di-19-zhang-you-xi-ke-xue-ji-suan-he-zhuan-ye-gong-ju/di-19.6-jie-wine.md)
 * [19.7 Scientific Research and Professional Computing](di-19-zhang-you-xi-ke-xue-ji-suan-he-zhuan-ye-gong-ju/di-19.7-jie-ke-yan-he-zhuan-ye-ji-suan.md)
 
@@ -212,8 +212,8 @@
 
 ## Chapter 23: Embedded Platforms and Development Environments
 
-* [23.1 Installing FreeBSD on Raspberry Pi](di-23-zhang-qian-ru-shi-ping-tai-ji-kai-fa-huan-jing/di-23.1-jie-shu-mei-pai-freebsd-an-zhuang.md)
-* [23.2 Using FreeBSD on Raspberry Pi](di-23-zhang-qian-ru-shi-ping-tai-ji-kai-fa-huan-jing/di-23.2-jie-shu-mei-pai-freebsd-shi-yong.md)
+* [23.1 Raspberry Pi FreeBSD Installation](di-23-zhang-qian-ru-shi-ping-tai-ji-kai-fa-huan-jing/di-23.1-jie-shu-mei-pai-freebsd-an-zhuang.md)
+* [23.2 Raspberry Pi FreeBSD Usage](di-23-zhang-qian-ru-shi-ping-tai-ji-kai-fa-huan-jing/di-23.2-jie-shu-mei-pai-freebsd-shi-yong.md)
 * [23.3 Raspberry Pi Linux Compatibility Layer](di-23-zhang-qian-ru-shi-ping-tai-ji-kai-fa-huan-jing/di-23.3-jie-shu-mei-pai-linux-jian-rong-ceng.md)
 * [23.4 Radxa X4 x86 Development Board](di-23-zhang-qian-ru-shi-ping-tai-ji-kai-fa-huan-jing/di-23.4-jie-radxa-x4-x86-kai-fa-ban.md)
 * [23.5 STM32 Development Environment](di-23-zhang-qian-ru-shi-ping-tai-ji-kai-fa-huan-jing/di-23.5-jie-stm32-kai-fa-huan-jing.md)
@@ -241,16 +241,16 @@
 * [26.2 Linux File Systems](di-26-zhang-qi-ta-wen-jian-xi-tong/di-26.2-jie-linux-wen-jian-xi-tong.md)
 * [26.3 macOS File Systems](di-26-zhang-qi-ta-wen-jian-xi-tong/di-26.3-jie-macos-wen-jian-xi-tong.md)
 
-## Chapter 27: The UFS File System
+## Chapter 27: UFS File System
 
-* [27.1 Overview of the UFS File System](di-27-zhang-ufs-wen-jian-xi-tong/di-27.1-jie-ufs-wen-jian-xi-tong-gai-shu.md)
+* [27.1 UFS File System Overview](di-27-zhang-ufs-wen-jian-xi-tong/di-27.1-jie-ufs-wen-jian-xi-tong-gai-shu.md)
 * [27.2 Adding UFS Disks](di-27-zhang-ufs-wen-jian-xi-tong/di-27.2-jie-tian-jia-ufs-ci-pan.md)
 * [27.3 UFS Disk Expansion](di-27-zhang-ufs-wen-jian-xi-tong/di-27.3-jie-ufs-ci-pan-kuo-zhan.md)
 * [27.4 UFS Disk Snapshots](di-27-zhang-ufs-wen-jian-xi-tong/di-27.4-jie-ufs-ci-pan-kuai-zhao.md)
 * [27.5 UFS Disk Quotas](di-27-zhang-ufs-wen-jian-xi-tong/di-27.5-jie-ufs-ci-pan-pei-e.md)
 * [27.6 UFS Disk Encryption](di-27-zhang-ufs-wen-jian-xi-tong/di-27.6-jie-ufs-ci-pan-jia-mi.md)
 
-## Chapter 28: The ZFS File System
+## Chapter 28: ZFS File System
 
 * [28.1 ZFS History and Reality](di-28-zhang-zfs-wen-jian-xi-tong/di-28.1-jie-zfs-li-shi-yu-xian-shi.md)
 * [28.2 ZFS Features and Terminology](di-28-zhang-zfs-wen-jian-xi-tong/di-28.2-jie-zfs-te-xing-he-shu-yu.md)
@@ -273,7 +273,7 @@
 ## Chapter 30: Security Auditing
 
 * [30.1 Security Event Auditing](di-30-zhang-an-quan-shen-ji/di-30.1-jie-an-quan-shi-jian-shen-ji.md)
-* [30.2 Intrusion Detection Systems (IDS)](di-30-zhang-an-quan-shen-ji/di-30.2-jie-ru-qin-jian-ce-xi-tong-ids.md)
+* [30.2 Intrusion Detection System (IDS)](di-30-zhang-an-quan-shen-ji/di-30.2-jie-ru-qin-jian-ce-xi-tong-ids.md)
 * [30.3 Third-Party Vulnerabilities and Security Advisories](di-30-zhang-an-quan-shen-ji/di-30.3-jie-di-san-fang-lou-dong-yu-an-quan-gong-gao.md)
 * [30.4 Mandatory Access Control Framework (MAC Framework)](di-30-zhang-an-quan-shen-ji/di-30.4-jie-qiang-zhi-fang-wen-kong-zhi-kuang-jia-mac-kuang-jia.md)
 
@@ -303,8 +303,8 @@
 
 ## Chapter 34: Virtualization and Container Management
 
-* [34.1 Installing Windows 11 Using bhyve and vm-bhyve](di-34-zhang-xu-ni-hua-yu-rong-qi-guan-li/di-34.1-jie-shi-yong-bhyve-ji-vm-bhyve-gong-ju-an-zhuang-windows-11.md)
-* [34.2 Managing bhyve Virtual Machines via Web Interface Using BVCP](di-34-zhang-xu-ni-hua-yu-rong-qi-guan-li/di-34.2-jie-shi-yong-bvcp-tong-guo-web-jie-mian-guan-li-bhyve-xu-ni-ji.md)
+* [34.1 Installing Windows 11 with bhyve and vm-bhyve](di-34-zhang-xu-ni-hua-yu-rong-qi-guan-li/di-34.1-jie-shi-yong-bhyve-ji-vm-bhyve-gong-ju-an-zhuang-windows-11.md)
+* [34.2 Managing bhyve Virtual Machines via Web Interface with BVCP](di-34-zhang-xu-ni-hua-yu-rong-qi-guan-li/di-34.2-jie-shi-yong-bvcp-tong-guo-web-jie-mian-guan-li-bhyve-xu-ni-ji.md)
 * [34.3 Podman Container Management](di-34-zhang-xu-ni-hua-yu-rong-qi-guan-li/di-34.3-jie-podman-rong-qi-guan-li.md)
 * [34.4 Installing VirtualBox on FreeBSD](di-34-zhang-xu-ni-hua-yu-rong-qi-guan-li/di-34.4-jie-zai-freebsd-shang-an-zhuang-virtualbox.md)
 
@@ -318,7 +318,7 @@
 
 ## Chapter 36: File Transfer Protocol (FTP)
 
-* [36.1 Overview of File Transfer Protocol (FTP)](di-36-zhang-ftp-fu-wu-qi/di-36.1-jie-wen-jian-chuan-shu-xie-yi-ftp-gai-shu.md)
+* [36.1 File Transfer Protocol (FTP) Overview](di-36-zhang-ftp-fu-wu-qi/di-36.1-jie-wen-jian-chuan-shu-xie-yi-ftp-gai-shu.md)
 * [36.2 Pure-FTPd (with MySQL)](di-36-zhang-ftp-fu-wu-qi/di-36.2-jie-pure-ftpd-ji-yu-mysql.md)
 * [36.3 ProFTPD (with MySQL)](di-36-zhang-ftp-fu-wu-qi/di-36.3-jie-proftpd-ji-yu-mysql.md)
 * [36.4 vsftpd](di-36-zhang-ftp-fu-wu-qi/di-36.4-jie-vsftpd.md)
@@ -364,7 +364,7 @@
 
 * [Bug Reporting Process](fu-lu1/bug-bao-gao-liu-cheng.md)
 * [Subscribing to FreeBSD Mailing Lists](fu-lu1/freebsd-you-jian-lie-biao-ding-yue.md)
-* [Guide to Participating in FreeBSD Development](fu-lu1/freebsd-kai-fa-can-yu-zhi-nan.md)
+* [FreeBSD Development Participation Guide](fu-lu1/freebsd-kai-fa-can-yu-zhi-nan.md)
 * [Introduction to microSD Card Parameters](fu-lu1/cun-chu-ka.md)
 * [V2Ray](fu-lu1/v2ray.md)
 * [Mihomo](fu-lu1/mihomo.md)
