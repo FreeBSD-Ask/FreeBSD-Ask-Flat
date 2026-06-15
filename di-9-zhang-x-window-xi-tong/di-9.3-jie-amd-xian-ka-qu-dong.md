@@ -1,4 +1,4 @@
-# 9.3 AMD Graphics Drivers
+# 9.3 AMD Graphics Driver
 
 This section covers the installation and configuration of AMD graphics drivers. Please read the Graphics Driver Overview first.
 

@@ -1,6 +1,6 @@
-# FreeBSD Chinese Community Code of Conduct
+# Chinese FreeBSD Community (CFC) Code of Conduct
 
-The FreeBSD Chinese Community has always been committed to being a welcoming and respectful community, and we hope this will not change as the community evolves. To this end, we ask everyone to follow some basic rules:
+The Chinese FreeBSD Community (CFC) has always been committed to being a welcoming and respectful community, and we hope this will not change as the community evolves. To this end, we ask everyone to follow some basic rules:
 
 - Be friendly and patient;
 - Welcome others;
@@ -11,7 +11,7 @@ The FreeBSD Chinese Community has always been committed to being a welcoming and
 
 This is not an exhaustive list of prohibited behaviors. Please understand it as a guiding principle aimed at making it easier for us to communicate and participate in community activities.
 
-This code of conduct applies to all venues managed by the FreeBSD Chinese Community. These venues include online chats, mailing lists, bug trackers, FreeBSD events (such as developer meetings and social events), and other forums created by the project for communication. It applies to all your communications and behaviors in these spaces, including emails, chats, speeches, slides, videos, posters, signs, and even the T-shirts you wear in these spaces. Additionally, if violations of this code of conduct occur outside these spaces, in extreme cases they may also affect someone's ability to participate in the above venues.
+This code of conduct applies to all venues managed by the Chinese FreeBSD Community (CFC). These venues include online chats, mailing lists, bug trackers, FreeBSD events (such as developer meetings and social events), and other forums created by the project for communication. It applies to all your communications and behaviors in these spaces, including emails, chats, speeches, slides, videos, posters, signs, and even the T-shirts you wear in these spaces. Additionally, if violations of this code of conduct occur outside these spaces, in extreme cases they may also affect someone's ability to participate in the above venues.
 
 If you believe someone has violated the code of conduct, please report it to us by sending an email to <yklaxds@gmail.com>.
 
@@ -28,11 +28,11 @@ If you believe someone has violated the code of conduct, please report it to us 
   - Unwelcome sexual attention.
   - Advocating or encouraging any of the above behaviors.
 - **In general, if someone asks you to stop, then stop.** Continuing such behavior after being asked to stop is considered harassment.
-- **When disagreements arise, try to see things from others' perspectives.** Social and technical disagreements happen from time to time, and the FreeBSD Chinese Community is no exception. It is important that we resolve disagreements and differing viewpoints in a constructive manner. Remember, we are all different. The strength of the FreeBSD Chinese Community comes from its diverse community of people from various backgrounds. Different people have different views on issues. Not understanding why someone holds a particular view does not mean they are wrong. Don't forget that to err is human, and blaming each other does not help. Instead, focus on helping to solve problems and learning from mistakes.
+- **When disagreements arise, try to see things from others' perspectives.** Social and technical disagreements happen from time to time, and the Chinese FreeBSD Community (CFC) is no exception. It is important that we resolve disagreements and differing viewpoints in a constructive manner. Remember, we are all different. The strength of the Chinese FreeBSD Community (CFC) comes from its diverse community of people from various backgrounds. Different people have different views on issues. Not understanding why someone holds a particular view does not mean they are wrong. Don't forget that to err is human, and blaming each other does not help. Instead, focus on helping to solve problems and learning from mistakes.
 
 ## Questions?
 
-If you have any questions, please feel free to contact the FreeBSD Chinese Community Code of Conduct Committee via email at <yklaxds@gmail.com>.
+If you have any questions, please feel free to contact the Chinese FreeBSD Community (CFC) Code of Conduct Committee via email at <yklaxds@gmail.com>.
 
 (This text is based on the LLVM project's [Code of Conduct draft](https://llvm.org/docs/CodeOfConduct.html), which in turn is based on the [Django project](https://www.djangoproject.com/conduct/)'s code of conduct, which originated from the Speak Up! project's language.)
 

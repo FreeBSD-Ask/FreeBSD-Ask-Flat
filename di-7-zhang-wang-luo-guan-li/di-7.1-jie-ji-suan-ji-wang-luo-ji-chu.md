@@ -1,4 +1,4 @@
-# 7.1 Computer Networking Basics
+# 7.1 Computer Network Basics
 
 FreeBSD is an ideal operating system for internet or intranet servers, capable of providing robust network services under extremely high loads, efficiently using memory, and maintaining good response times with thousands of concurrent user processes.
 

@@ -10,7 +10,7 @@ VMware Workstation Pro is a Type-2 hypervisor that runs on top of the host opera
 
 The following video tutorial demonstrates the process of installing VMware Workstation Pro 17 on Windows 11:
 
-FreeBSD Chinese Community. 001-Windows 11 Installing VMware 17[EB/OL]. [2026-04-04]. <https://www.bilibili.com/video/BV1Qji2YLEgS>.
+Chinese FreeBSD Community (CFC). 001-Windows 11 Installing VMware 17[EB/OL]. [2026-04-04]. <https://www.bilibili.com/video/BV1Qji2YLEgS>.
 
 ## Image Download
 

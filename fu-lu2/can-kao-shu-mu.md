@@ -129,7 +129,7 @@ In terms of academic literature classification, this book is closer to an "annot
 
 ### Early Chinese FreeBSD Literature (2000s)
 
-- Wang Bo. FreeBSD Complete Guide[M]. Beijing: China Machine Press, 1999. ISBN: 978-7-111-07482-3. One of the earliest Chinese introductory books on FreeBSD in China, published in 1999. The author Wang Bo was an important promoter of the early FreeBSD Chinese community.
+- Wang Bo. FreeBSD Complete Guide[M]. Beijing: China Machine Press, 1999. ISBN: 978-7-111-07482-3. One of the earliest Chinese introductory books on FreeBSD in China, published in 1999. The author Wang Bo was an important promoter of the early Chinese FreeBSD community.
 - Wang Bo. FreeBSD Complete Guide[M]. 2nd Edition. Beijing: China Machine Press, 2002. ISBN: 978-7-111-10286-1. A revised edition of the Chinese introductory book on FreeBSD, with updated technical content and distribution in Taiwan.
 - Feng Baokun, Chen Zihong. FreeBSD Complete Strategy[M]. Beijing: China Materials Press; Beijing: Beijing Hope Electronic Press, 2004. ISBN: 978-7-5047-2160-0. Early Chinese introductory literature on FreeBSD.
 

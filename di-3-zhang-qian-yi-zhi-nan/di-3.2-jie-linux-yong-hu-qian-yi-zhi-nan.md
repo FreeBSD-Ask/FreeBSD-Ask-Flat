@@ -1,4 +1,4 @@
-# 3.2 Migration Guide for Linux Users
+# 3.2 Linux User Migration Guide
 
 Linux and FreeBSD are both UNIX-like operating systems, but they differ fundamentally in kernel architecture, package management philosophy, and system design principles. Deeply understanding BSD's construction approach and original intent is no easy task, and the resulting disappointment is inevitable.
 
@@ -377,7 +377,7 @@ The problem is that many UOS system functions (such as developer mode activation
 >
 >> "From a technical perspective, adopting more efficient mirror distribution methods (such as BitTorrent) could potentially improve the download experience." Clearly there are more efficient distribution methods (before the PCDN poisoning incident), so why is it difficult to push for technical realization?
 >>
->> How do you understand whether individuals in modern enterprises have a sense of虚无 (nihilistic) responsibility and professional ethics toward the enterprise?
+>> How do you understand whether individuals in modern enterprises have a nihilistic sense of responsibility and professional ethics toward the enterprise?
 >>
 >> Ultimately, the two are merely employment relationships. Are professional ethics and the halo of honor a social construct or an indispensable spiritual pillar of human civilization? If everything is flattened, it would actually go against common sense.
 >>

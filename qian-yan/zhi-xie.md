@@ -24,7 +24,7 @@ The early initiator of this project was [clean-master](https://github.com/clean-
 
 Simple, former bar manager of the Ubuntu Bar, once suggested modifying the project's chapter filenames and license agreement, which improved the maintainability of this project.
 
-The domain `bsdcn.org` for this project is sponsored by the FreeBSD Chinese Community (CFC) and ykla.
+The domain `bsdcn.org` for this project is sponsored by the Chinese FreeBSD Community (CFC) and ykla.
 
 Currently, the primary manager of this project is [Voosk](https://github.com/MilkGolium), who has also participated in writing some articles.
 

@@ -168,9 +168,9 @@ As the voice of the FreeBSD community and an important channel for understanding
 
 International FreeBSD Day is an annual celebration to recognize FreeBSD's pioneering and continued impact on technology and to commemorate the values it carries. On June 15, 2017, the National Day Calendar registrar announced June 19 as National FreeBSD Day.
 
-- 2018 FreeBSD Chinese Community (CFC) Established
+- 2018 Chinese FreeBSD Community (CFC) Established
 
-Multiple Chinese communities had existed in the millennium era but gradually declined. Some core members of these early communities are still active in the FreeBSD project but no longer focus on Chinese community affairs, having turned to personal careers and family. The FreeBSD Chinese Community (CFC) originally developed from the Baidu Tieba FreeBSD forum.
+Multiple Chinese communities had existed in the millennium era but gradually declined. Some core members of these early communities are still active in the FreeBSD project but no longer focus on Chinese community affairs, having turned to personal careers and family. The Chinese FreeBSD Community (CFC) originally developed from the Baidu Tieba FreeBSD forum.
 
 - April 6, 2021 Migration from Subversion to Git
 

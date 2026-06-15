@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [FreeBSD: From Beginner to Running Away](README.md)
+* [FreeBSD Ask](README.md)
 * [Changelog](CHANGELOG.md)
 * [Contributing Guide and Open Tasks](CONTRIBUTING.md)
 * [Table of Contents](mu-lu.md)

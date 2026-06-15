@@ -1,4 +1,4 @@
-# 7.5 USB Network Tethering
+# 7.5 USB Network Sharing
 
 ## Overview
 

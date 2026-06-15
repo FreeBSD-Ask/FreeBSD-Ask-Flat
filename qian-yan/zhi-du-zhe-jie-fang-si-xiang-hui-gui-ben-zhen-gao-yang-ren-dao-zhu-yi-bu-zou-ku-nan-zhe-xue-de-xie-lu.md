@@ -1,4 +1,4 @@
-# To the Reader: Emancipate the Mind, Return to Authenticity, Uphold Humanism, and Reject the False Path of Suffering Philosophy
+# To Readers: Emancipate the Mind, Return to Authenticity, Uphold Humanism, and Reject the Wrong Path of the Philosophy of Suffering
 
 For most readers, understanding the full text may be difficult, or even impossible. "He who fights with monsters should look to it that he himself does not become a monster. And if you gaze long into an abyss, the abyss also gazes into you." Therefore, reading this text itself may be an experience of the "philosophy of suffering." If readers encounter obstacles while reading, they should feel free to skip the relevant paragraphs or even the entire text, and go directly to the content they need.
 

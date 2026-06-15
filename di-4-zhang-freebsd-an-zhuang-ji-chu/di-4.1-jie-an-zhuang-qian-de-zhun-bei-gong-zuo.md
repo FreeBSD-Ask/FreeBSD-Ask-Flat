@@ -162,7 +162,7 @@ Due to version iteration, the actual situation may have changed; please check on
 
 - FreeBSD Project. freebsd-src/UPDATING[EB/OL]. [2026-03-25]. <https://github.com/freebsd/freebsd-src/blob/main/UPDATING>. This file records major changes in system updates.
 - FreeBSD Project. freebsd-src/RELNOTES[EB/OL]. [2026-03-25]. <https://github.com/freebsd/freebsd-src/blob/main/RELNOTES>. This file provides release notes and new features documentation for the release.
-- Dell Technologies. How to determine the SHA-256 hash of a file for security applications[EB/OL]. [2026-03-25]. <https://www.dell.com/support/kbdoc/zh-cn/000130826/%E5%A6%82%E4%BD%95%E7%A1%AE%E5%AE%9A%E7%94%A8%E4%BA%8E%E5%AE%89%E5%85%A8%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%96%87%E4%BB%B6-sha-256-%E5%93%88%E5%B8%8C>. This document introduces how to calculate file SHA-256 hash values on Windows systems. Readers may refer to it.
+- Dell Technologies. How to determine the SHA-256 hash of a file for security applications[EB/OL]. [2026-03-25]. <https://www.dell.com/support/kbdoc/en-us/000130826/how-to-determine-the-sha-256-hash-of-a-file-for-security-applications>. This document introduces how to calculate file SHA-256 hash values on Windows systems. Readers may refer to it.
 
 ## Burning the FreeBSD Image
 
@@ -182,7 +182,7 @@ Different operating system platforms have different recommended image burning to
 
 For the Windows platform, it is recommended to use **Rufus** first. For Linux/FreeBSD platforms, you can directly use the `dd` command to burn the image: `dd if=FreeBSD-*.img of=/dev/daX bs=1M status=progress` (where **/dev/daX** is the target USB flash drive device, adjust according to the actual device name; `status=progress` displays transfer progress).
 
-The Rufus download URL is <https://rufus.ie/zh>, which is an open-source USB boot drive creation tool for the Windows platform.
+The Rufus download URL is <https://rufus.ie/>, which is an open-source USB boot drive creation tool for the Windows platform.
 
 When using Rufus to burn an image, there is no need to decompress the file; simply select `-img.xz` to create the boot drive.
 

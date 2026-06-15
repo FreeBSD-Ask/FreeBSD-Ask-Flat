@@ -1,4 +1,4 @@
-# 9.1 Overview of Graphics Drivers
+# 9.1 Graphics Driver Overview
 
 A FreeBSD system installed using bsdinstall does not automatically install a graphical user interface. This section describes how to select and install drivers for graphics processing units (GPUs).
 

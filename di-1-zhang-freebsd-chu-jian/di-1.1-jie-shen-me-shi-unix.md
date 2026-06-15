@@ -1,4 +1,4 @@
-# 1.1 What is UNIX?
+# 1.1 What Is UNIX?
 
 FreeBSD originates from BSD, the version of UNIX® developed at the University of California, Berkeley.
 

@@ -1,4 +1,4 @@
-# FreeBSD: From Beginner to Running Away
+# FreeBSD Ask
 
 ![🎉 Welcome to the world of BSD!](.gitbook/assets/web-logo.png)
 
@@ -28,7 +28,7 @@ WeChat Official Account: bsdcn2018
 
 - The primary contact for the Chinese FreeBSD Community (CFC) is the QQ group: [787969044](https://qm.qq.com/q/cX5mpJ36gg)
 
-![Chinese FreeBSD Community QQ Group](.gitbook/assets/2025-qq.png)
+![Chinese FreeBSD Community (CFC) QQ Group](.gitbook/assets/2025-qq.png)
 
 - WeChat group: Due to WeChat platform restrictions, you must first join the QQ group, then contact the group owner to obtain the latest group QR code.
 - Discord: <https://discord.gg/j7VhWrhp3e> (Requires a proxy; accessible via the web client)
@@ -56,7 +56,7 @@ This book is accessible through three subdomains, each using a different website
 - <https://docs.bsdcn.org>
 - <https://doc.bsdcn.org> (Better access speed within mainland China)
 
-The Chinese FreeBSD Community does not deploy this book through any other domains. The sole official domain is `bsdcn.org`.
+The Chinese FreeBSD Community (CFC) does not deploy this book through any other domains. The sole official domain is `bsdcn.org`.
 
 ## Feedback
 
@@ -66,7 +66,7 @@ If you encounter content issues or website technical issues, please email ykla [
 
 For community-related issues, please join the QQ group and contact the group owner.
 
-Please follow the [Chinese FreeBSD Community Code of Conduct (CoC)](https://docs.bsdcn.org/CODE_OF_CONDUCT).
+Please follow the [Chinese FreeBSD Community (CFC) Code of Conduct (CoC)](https://docs.bsdcn.org/CODE_OF_CONDUCT).
 
 The comment feature requires a GitHub account login. Comments will be published to the Discussions section of the GitHub repository [Handbook-giscus-discussions](https://github.com/FreeBSD-Ask/Handbook-giscus-discussions), where you can manage your past comments.
 
@@ -106,7 +106,7 @@ If you believe this work infringes on your rights, please contact ykla via email
 
 ## Project History
 
-"FreeBSD: From Beginner to Running Away" began on March 14, 2021. Its prototype can be traced back to the article "An Introduction to the Art, Science, and Philosophy of FreeBSD" published by ykla on December 31, 2020.
+"FreeBSD Ask" began on March 14, 2021. Its prototype can be traced back to the article "An Introduction to the Art, Science, and Philosophy of FreeBSD" published by ykla on December 31, 2020.
 
 <!-- GA_STATS:START -->
 

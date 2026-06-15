@@ -1,4 +1,4 @@
-# 3.1 Migration Guide for Windows Users
+# 3.1 Windows User Migration Guide
 
 Operating system migration involves multi-dimensional differences in file system concepts, character encoding, line ending conventions, and time zone handling. Users migrating from Windows to FreeBSD need to understand these differences before they can transition smoothly.
 

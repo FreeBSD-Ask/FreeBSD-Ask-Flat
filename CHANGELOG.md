@@ -1,4 +1,4 @@
-# Editor's Log
+# Changelog
 
 ## Q2 2026
 
@@ -569,7 +569,7 @@
 - 2025.7.30
   - The previous issue where KDE on Wayland showed a black screen after right-clicking the desktop at startup has been resolved. See <https://old.reddit.com/r/freebsd/comments/1m9popo/kde_mini_review/n5dv1uk/> and <https://github.com/freebsd/freebsd-ports/pull/431>. Currently installed users only need to `make reinstall` Ports `graphics/qt6-wayland` and `/x11/plasma6-layer-shell-qt`. Or wait a few days for `pkg upgrade`; there should be no black screen issue after installation.
 - 2025.7.23
-  - Restored the book title "FreeBSD: From Beginner to Running Away"
+  - Restored the book title "FreeBSD Ask"
 - 2025.7.7
   - 17.7 OpenList added: Multi-owner permission management for local storage
   - 17.7 OpenList added: Movie scraping
@@ -679,7 +679,7 @@
 - 2025.4.24
   - Section 4.2 Graphics Drivers (NVIDIA): completely rewritten
 - 2025.4.22
-  - "FreeBSD: From Beginner to Running Away" restored its old name "Introduction to the Art, Science, and Philosophy of FreeBSD"
+  - "FreeBSD Ask" restored its old name "Introduction to the Art, Science, and Philosophy of FreeBSD"
   - Section 5.2 Fcitx Input Method Framework: reformatted
   - Split "Section 4.1 Graphics Drivers" into "Section 4.1 Graphics Drivers (Intel, AMD)" and "Section 4.2 Graphics Drivers (NVIDIA)"
   - Section 9.3 Managing Jails with Qjail: reformatted
@@ -690,7 +690,7 @@
 ---
 
 - 2024.8.1-2025.4.20
-  - "FreeBSD: From Beginner to Running Away" second edition completed (TAG 2025.4.20)
+  - "FreeBSD Ask" second edition completed (TAG 2025.4.20)
 
 ---
 
@@ -1122,7 +1122,7 @@
 ---
 
 - 2021.11.19-2024.7.31
-  - "FreeBSD: From Beginner to Running Away" first edition completed (version-1 branch)
+  - "FreeBSD Ask" first edition completed (version-1 branch)
 
 ---
 
@@ -1225,7 +1225,7 @@
   - Marked copyright or issued warnings for sections with unknown sources
 - 2023.8.17
   - Added "Section 0.9 Who Uses FreeBSD"
-  - Added "Section 0.10 FreeBSD Chinese Community Article Translation Table"
+  - Added "Section 0.10 Chinese FreeBSD Community (CFC) Article Translation Table"
 - 2023.8.16
   - Added "Section 0.8 FreeBSD Sub-Projects"
 - 2023.8.13
@@ -1240,7 +1240,7 @@
 - 2023.8.8
   - "Section 18.3 Usage Configuration" added "htop", "Show Temperature", "View CPU Frequency"
 - 2023.8.7
-  - Added "Section 0.8 FreeBSD Chinese Community Article Translation Table"
+  - Added "Section 0.8 Chinese FreeBSD Community (CFC) Article Translation Table"
   - "Section 17.4 MySQL 5.X": supplemented the method for installing older MySQL software via ports
 - 2023.8.4
   - "Section 18.2 System Installation" supplemented kernel user-space compilation, etc.
@@ -1414,7 +1414,7 @@
 ## Q2 2022
 
 - 2022.6.23
-  - Added "Section 7 Novel — FreeBSD: From Beginner to Running Away"
+  - Added "Section 7 Novel — FreeBSD Ask"
   - Rewrote "Section 9 References and Contributor List"
 - 2022.6.21
   - Rewrote "Section 3 FreeBSD's Shortcomings"
@@ -1542,20 +1542,20 @@
 
 ## Q3 2021
 
-The "FreeBSD: From Beginner to Running Away" project continues to iterate.
+The "FreeBSD Ask" project continues to iterate.
 
 ## Q2 2021
 
-The "FreeBSD: From Beginner to Running Away" project was updated at [clean-master/freebsdcn](https://github.com/clean-master/freebsdcn).
+The "FreeBSD Ask" project was updated at [clean-master/freebsdcn](https://github.com/clean-master/freebsdcn).
 
 ## Q1 2021
 
 - 2021.3.15
   - ykla completed the initial organization and publication of the tutorial in the early hours of the next day; since then, the primary maintainer has always been ykla
 - 2021.3.14
-  - "FreeBSD: From Beginner to Running Away" originated on March 14, 2021 (based on analysis of the [clean-master/freebsdcn](https://github.com/clean-master/freebsdcn/graphs/contributors) project creation time), initiated by the FreeBSD Chinese community's [clean-master](https://github.com/clean-master)
+  - "FreeBSD Ask" originated on March 14, 2021 (based on analysis of the [clean-master/freebsdcn](https://github.com/clean-master/freebsdcn/graphs/contributors) project creation time), initiated by the Chinese FreeBSD Community (CFC)'s [clean-master](https://github.com/clean-master)
 
 ## Q4 2020
 
 - 2020.12.31
-  - The prototype of "FreeBSD: From Beginner to Running Away" can be traced back to the post "Introduction to the Art, Science, and Philosophy of FreeBSD" published by ykla on December 31, 2020
+  - The prototype of "FreeBSD Ask" can be traced back to the post "Introduction to the Art, Science, and Philosophy of FreeBSD" published by ykla on December 31, 2020

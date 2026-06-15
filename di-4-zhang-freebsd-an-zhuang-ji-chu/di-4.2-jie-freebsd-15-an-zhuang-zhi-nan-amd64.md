@@ -12,7 +12,7 @@ The following installation instructions are based on `FreeBSD-15.0-RELEASE-amd64
 >
 > This section is demonstrated using VMware Workstation Pro 17 (with UEFI), and has been tested on VMware Workstation Pro 26H1.
 >
-> If installing on a physical machine, consider using the Rufus <https://rufus.ie/zh/> tool with the <https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/15.0/FreeBSD-15.0-RELEASE-amd64-memstick.img> image for burning. This file is the USB installation image for FreeBSD 15.0-RELEASE amd64 architecture. Rufus is a third-party tool whose interface may change with version updates; the image file path is subject to the FreeBSD official release page. This recommendation is based on the tool version and image release status as of March 2026.
+> If installing on a physical machine, consider using the Rufus <https://rufus.ie/> tool with the <https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/15.0/FreeBSD-15.0-RELEASE-amd64-memstick.img> image for burning. This file is the USB installation image for FreeBSD 15.0-RELEASE amd64 architecture. Rufus is a third-party tool whose interface may change with version updates; the image file path is subject to the FreeBSD official release page. This recommendation is based on the tool version and image release status as of March 2026.
 
 ## Booting the Installation Disk
 
