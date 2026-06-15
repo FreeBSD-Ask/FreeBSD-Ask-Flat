@@ -74,7 +74,7 @@ jobs:
         id: set_tag
         run: echo "RELEASE_TAG=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
 
-      - name: 🔍 获取前一个标签 (优化版本)
+      - name: 🔍 获取前一个标签
         working-directory: FreeBSD-Ask
         run: |
           git fetch --tags --force
