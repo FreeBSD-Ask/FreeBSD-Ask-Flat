@@ -20,15 +20,15 @@ This book is an open-source research work about the FreeBSD operating system.
 
 ## About the Authors
 
-This book is co-authored by multiple members of the FreeBSD Chinese community.
+This book is co-authored by multiple members of the Chinese FreeBSD Community.
 
 ![WeChat Official Account](.gitbook/assets/wechatnew.png)
 
 WeChat Official Account: bsdcn2018
 
-- The primary contact for the FreeBSD Chinese community is the QQ group: [787969044](https://qm.qq.com/q/cX5mpJ36gg)
+- The primary contact for the Chinese FreeBSD Community is the QQ group: [787969044](https://qm.qq.com/q/cX5mpJ36gg)
 
-![FreeBSD Chinese Community QQ Group](.gitbook/assets/2025-qq.png)
+![Chinese FreeBSD Community QQ Group](.gitbook/assets/2025-qq.png)
 
 - WeChat group: Due to WeChat platform restrictions, you must first join the QQ group, then contact the group owner to obtain the latest group QR code.
 - Discord: <https://discord.gg/j7VhWrhp3e> (Requires a proxy; accessible via the web client)
@@ -56,7 +56,7 @@ This book is accessible through three subdomains, each using a different website
 - <https://docs.bsdcn.org>
 - <https://doc.bsdcn.org> (Better access speed within mainland China)
 
-The FreeBSD Chinese community does not deploy this book through any other domains. The sole official domain is `bsdcn.org`.
+The Chinese FreeBSD Community does not deploy this book through any other domains. The sole official domain is `bsdcn.org`.
 
 ## Feedback
 
@@ -66,7 +66,7 @@ If you encounter content issues or website technical issues, please email ykla [
 
 For community-related issues, please join the QQ group and contact the group owner.
 
-Please follow the [FreeBSD Chinese Community Code of Conduct (CoC)](https://docs.bsdcn.org/CODE_OF_CONDUCT).
+Please follow the [Chinese FreeBSD Community Code of Conduct (CoC)](https://docs.bsdcn.org/CODE_OF_CONDUCT).
 
 The comment feature requires a GitHub account login. Comments will be published to the Discussions section of the GitHub repository [Handbook-giscus-discussions](https://github.com/FreeBSD-Ask/Handbook-giscus-discussions), where you can manage your past comments.
 
