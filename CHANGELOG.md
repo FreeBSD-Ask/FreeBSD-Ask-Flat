@@ -1,0 +1,1561 @@
+# Changelog
+
+## Q2 2026
+
+- 2026.6.14
+  - Updated "5.5 Installing FreeBSD on Apple M1 with VMware Fusion Pro" to VMware Fusion Pro 26H1
+  - Updated "5.4 Installing FreeBSD on Apple M1 with Parallels Desktop" to Parallels Desktop 26.3.3
+- 2026.6.13
+  - Comprehensively restructured chapter organization
+- 2026.6.12
+  - Moved "SSH and SCP Client" from "16.8 OpenSSH" to "5.1 Windows User Migration Guide"
+  - Added PostgreSQL syntax to "26.1 Introduction to Databases"; all syntax verified by automated testing
+  - All syntax in "22.2-22.4" verified by automated testing
+  - Added "tmux" to "16.8 OpenSSH"
+  - Split "7.3 Updating FreeBSD with PkgBase" into "7.3 Converting the Base System with PkgBase", "7.4 Updating FreeBSD with ZFS Boot Environments", and "20.7 Updating the OpenZFS Version"
+- 2026.6.11
+  - Brought the entire book in line with best practices; marked behaviors unsuitable for production environments
+  - Abolished redundant A/B group shells; environment variables now uniformly use the user classification method
+  - "27.4 vsftpd": replaced apache24 with the base system's built-in openssl
+  - Completely rewrote and updated from the Handbook: "28.3 Network File System (NFS)"
+- 2026.6.10
+  - Added "Project Demo" to "14.1 Godot Open-Source Game Engine"
+  - Updated "28.2 Samba File Sharing" to samba4.23
+  - Updated "3.1 Pre-Installation Preparation"
+- 2026.6.9
+  - Split "14.3 Minecraft" into "14.2 Minecraft Server"
+  - "16.13 NTP Time Synchronization and Time Zones": added "NTP Configuration File"
+  - Converted several lists into tables for better readability
+  - Added "14.5 R Language"
+  - Updated from the Handbook: "8.2 Basic Network Management"; added "Alias Addresses"
+  - Updated from the Handbook: "8.8 Network Bridges"
+  - Updated from the Handbook: "8.9 Link Aggregation and Failover"; note: Example 1 (LACP aggregation using a switch) could not be tested as it requires switch support. To be rewritten later.
+  - Updated from the Handbook: "8.10 VLAN"; to be rewritten later
+- 2026.6.8
+  - Removed "Time Zone in Cron Tasks" from "16.13 NTP Time Synchronization and Time Zones" as it was incorrect. FreeBSD's Cron does not support this; it is a Linux-only variable.
+- 2026.6.7
+  - Removed directly cited Wikipedia and similar content from "14.5 Scientific and Professional Computing"
+  - Removed "7.1 System Update Detection" as it is useless for KDE and has no practical value
+- 2026.6.5
+  - Removed "4.5 Installing FreeBSD on Apple M1 with UTM".
+    - See <https://reviews.freebsd.org/D55012> and [Bug 283646 - x11-drivers/xf86-video-scfb: startx fails: (EE) scfb(0): scfb_mmap: Invalid argument](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=283646)
+  - Removed "14.1 Ren'Py Visual Novel Engine"; the Port has been removed, it had limited practical use, similar games are few, and the current example (Doki Doki Literature Club!) is inappropriate
+    - Submitted [Bug 295539 games/renpy: Maybe need update to 8.x.y not deprecate](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=295539)
+- 2026.6.4
+  - Completely rewrote "13.5 Slackware Linux Compatibility Layer"
+  - Added "23.2 Thick Jail"
+- 2026.6.3
+  - Completely rewrote "13.3 Ubuntu/Debian Compatibility Layer"; updated to Ubuntu 26.04 LTS, Debian 13
+  - Added Kali Linux Compatibility Layer
+  - Removed "13.6 openSUSE Compatibility Layer" because SELinux is now fully enabled and not supported
+  - Completely rewrote "13.6 Gentoo Linux Compatibility Layer"; updated to version 2026.6.1 (auto-built)
+- 2026.6.2
+  - "13.2 Rocky Linux Compatibility Layer": completely rewrote "Installing Rocky Linux 10 Compatibility Layer via Shell Script"; now directly references the WSL compatibility layer
+- 2026.6.1
+  - Added chapter "Chapter 7: FreeBSD System Updates", split from other chapters
+  - Submitted [Port lang/python version display incorrect, should use Mk/bsd.default-versions.mk
+ #659](https://github.com/FreshPorts/freshports/issues/659)
+- 2026.5.31
+  - Updated "19.8 ZFS Tuning" from the Handbook
+  - Updated "10.7 Document Viewers" from the Handbook
+- 2026.5.30
+  - Renamed Chapter 16 "Storage and File System Management" to "Storage Management"
+  - "17.1 Windows File Systems": completely rewrote "NTFS File System"
+  - Added sections to Chapter 16: USB Storage Devices, Virtual Memory Disk
+  - Split "16.1 UFS File System" into Chapter 18 "UFS File System" (added 18.2 Adding UFS Disks)
+  - Split "18.11 Encrypted Disk Partitions"
+  - Added Chapter 17 "Other File Systems", split from Chapter 16 "Storage and File System Management"
+- 2026.5.29
+  - Added "Encrypted Disk Partitions"
+  - Merged "9.8 LXDE" into "9.6 LXQt" as an appendix
+  - Added "11.2 Locale Configuration for Specific Languages"
+  - Completely rewrote: "20.1 Jail Basics" (updated from the Handbook)
+  - Completely rewrote: "EXT Series File Systems" in "16.3 Linux File Systems"
+  - Added "exFAT File System" to "16.4 Windows File Systems"
+  - Added "16.5 macOS File Systems"
+- 2026.5.28
+  - Split Chapter 21 "Linux Jails" from "12.8 Linux Jail"
+  - Added 10.8 Camera
+  - Removed 20.2 Jail System Updates; pending rewrite
+- 2026.5.26
+  - Over the past 2 months, some content has been merged from FreeBSD, marking this book as essentially a superset of the Handbook. It can be said that the Handbook has now completely lost its value.
+- 2026.5.25
+  - Updated "Based on Rocky Linux Compatibility Layer (FreeBSD Port)" in "11.11 WPS Office (Linux Version)"
+  - Added "Managing Python via uv" to "27.4 Python Development Environment"
+  - Split "1.4 Introduction to FreeBSD" into Chapter 2 "Introduction to FreeBSD" and "1.4 What is FreeBSD"
+- 2026.5.24
+  - Updated "Identifying Network Adapters via ifconfig Command" in "6.1 Basic Networking"
+  - Updated "21.4 MySQL" to MySQL 8.4
+  - Submitted [Bug 295539 - games/renpy: Maybe need update to 8.x.y not deprecate](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=295539)
+  - Submitted [Bug 295538 - java/intellij-ultimate: Please move it to java/intellij](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=295538)
+  - Completely rewrote: "27.2 Java Development Environment"
+  - Completely rewrote: "27.3 Qt Development Environment"
+  - Completely rewrote: "27.5 Rust Development Environment"
+  - Updated "27.6 Go Development Environment"
+  - Updated "27.7 Node.js Development Environment"
+  - Updated "27.10 Debugging FreeBSD with IDA Pro" to IDA Pro 9.3
+  - Split "General Embedded Development Environment" into "STM32 Development Environment", "Espressif Development Environment", and "Arduino Development Environment"
+  - Rewrote "Installing STM32CubeMX" in "26.7 STM32 Development Environment"
+  - Completely rewrote: "26.9 Arduino Development Environment"
+  - Submitted [Bug 295543 - devel/arduino18 not work with openjdk25 but work on openjdk8](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=295543)
+  - Updated: "2.5 Installing FreeBSD with Hyper-V"
+- 2026.5.23
+  - Removed "8.10 Hyprland"; could not be reproduced, lacks documentation maintenance
+  - Completely rewrote: "2.4 Installing FreeBSD with VirtualBox"
+- 2026.5.22
+  - Split Chapter 22 "File Transfer Protocol (FTP)" from "23.1 FTP Server"
+  - Removed "21.4 MySQL 5.x Series"; outdated and unusable
+  - Separated "27.6 Go Development Environment" as an independent section
+  - Updated "20.4 Installing VirtualBox on FreeBSD" from the Handbook
+- 2026.5.21
+  - Split "16.2 ZFS Features and Terminology" from "16.1 ZFS History and Reality"
+  - Added "17.1 Information Security Overview"
+  - Corrected "17.7 OpenSSL"
+- 2026.5.20
+  - Added "4.3 macOS User Migration Guide"
+- 2026.5.19
+  - Removed exercises from non-theoretical chapters
+  - Merged "1.5 George Berkeley and the Naming Origin of BSD" and "1.6 University of California, Berkeley and Fiat Lux" into "1.5 George Berkeley and the BSD Cultural Tradition"
+  - Added "1.6 Overview of Other BSD Distributions"
+- 2026.5.18
+  - Removed: 8.9 bspwm; reason: could not be reproduced, contains logical errors
+  - If the CDE maintainer does not accept the Chinese patch before January 2027, CDE will be removed. See [#2157](https://github.com/FreeBSD-Ask/FreeBSD-Ask/pull/2157).
+- 2026.5.17
+  - Added: "14.11 System Log Management"
+- 2026.5.16
+  - Audited all Ports in the book for validity; cleaned up defunct software
+- 2026.5.15
+  - Supplemented and rewrote: "11.1 Linux Compatibility Layer Architecture"
+  - Fact-checked the entire book using references and FreeBSD man pages
+  - Further de-Europeanized Chinese phrasing
+- 2026.5.13
+  - Supplemented and rewrote: "Chapter 16 ZFS"
+- 2026.5.11
+  - Added: "13.1 Artificial Intelligence Overview"
+  - Added: "13.2 Local Deployment of Large Language Models"
+- 2026.5.10
+  - Split "7.2 Intel and AMD Graphics Driver Configuration" into "7.1 Graphics Driver Overview" and "7.3 AMD Graphics Drivers"
+  - Reorganized Chapter 16 based on the Handbook structure
+- 2026.5.8
+  - Supplemented and rewrote: "17.6 blocklistd"; most functions tested successfully
+  - Renamed "6.2 TCP/IP Protocol Stack" to "6.2 Advanced Network Management"
+  - Supplemented and rewrote: "6.2 Advanced Network Management"
+  - Formatted the entire book for a more formal written style
+  - Merged "4.6 Shell Configuration" into "4.5 Shell Basics"
+- 2026.5.6
+  - Supplemented and rewrote: "9.1 ZFS History and Reality"
+  - Supplemented and rewrote: "5.3 Managing Services in FreeBSD"
+  - Supplemented and rewrote: "5.9 Cron and Periodic"
+  - Supplemented and rewrote: "5.10 sysctl Tool"
+  - Supplemented and rewrote: "14.2 Sound Card Configuration"
+  - Supplemented and rewrote: "5.11 NTP Time Synchronization and Time Zones"
+  - Supplemented and rewrote: "5.8 Device Resource Hints File (device.hints)"
+  - Supplemented and rewrote: "19.4 Samba File Sharing"
+  - Restored the two appendices in Appendix 1 to their original paths
+  - Reviewed the entire book for Europeanized Chinese phrasing
+  - Added: "17.1 Firewall Overview"
+- 2026.5.3
+  - Added: "18.2 Resource Limits"
+  - Added: "18.3 Security Levels"
+  - Added: "18.4 Security Event Auditing"
+  - Added: "18.5 OpenSSL"
+  - Added: "18.6 Intrusion Detection System (IDS)"
+  - Added: "18.7 Third-Party Vulnerabilities and Security Advisories"
+  - Completely rewrote: "4.3 System Directory Structure"
+  - Added: "27.7 Building a Custom Kernel"
+  - Added: "24.10 DTrace"
+  - Added "UFS File System Snapshots" and "UFS File System Disk Quotas" to "8.1 UFS File System"
+  - Supplemented and rewrote: "5.6 OpenSSH"
+  - Supplemented and rewrote: "Privilege Elevation Tools (sudo, doas, etc.)"
+  - Added "18.1 Account Authentication Security"
+- 2026.4.30
+  - Added: 18.6 Zero-Configuration Networking (mDNS/DNS-SD)
+- 2026.4.28
+  - Supplemented Chapters 5-7 from the Handbook
+- 2026.4.27
+  - Supplemented Preface and Chapters 1-4 from the Handbook
+  - Updated 7.3 Clash for FreeBSD
+- 2026.4.23
+  - Separated "UEFI/BIOS Notes (AMI BIOS)" as an independent section
+  - Separated non-FreeBSD BSD chapters as independent sections
+  - Removed literary stories unrelated to FreeBSD
+- 2026.4.21
+  - Restructured the entire book to be bottom-up. De-Handbook-ized, blog-style
+- 2026.4.20
+  - Deleted some subsections in computer networking and firewalls that had plagiarism issues
+  - Split Appendix I Relational Database Fundamentals into 19.4 MySQL 8.x Series
+  - Split Appendix I Computer Networking into 14.1 Basic Network Configuration
+  - Separated "Introduction to microSD Card Parameters" from Appendix I Computer System Architecture
+  - Deleted other content in Appendix I Computer System Architecture
+  - Other appendix numbers decremented accordingly
+- 2026.4.19
+  - Reviewed the entire book for terminology and typos
+  - Supplemented references throughout the book
+  - Fact-checked the entire book
+- 2026.4.8
+  - Removed redundant personal pronouns and expressions
+  - Polished to meet publication standards
+- 2026.4.5
+  - Formatted the entire book
+- 2026.4.3
+  - Standardized references throughout the book
+- 2026.4.1
+  - Proofread the entire book
+
+## Q1 2026
+
+- 2026.3.31
+  - Proofread Sections 1.1-8.6
+- 2026.3.29
+  - Removed "21.5 Deepin Compatibility Layer"; it has become defunct and difficult to supplement
+  - Reviewed all online references in the book to ensure accessibility
+  - Standardized terminology throughout the book based on the Terminology Online platform <https://www.termonline.cn/>
+- 2026.3.28
+  - Standardized references throughout the book
+  - Standardized image descriptions throughout the book
+  - Eliminated markdownlint errors; standardized markdown
+- 2026.3.24
+  - Further reviewed the entire book
+- 2026.3.22
+  - Added table of contents diagrams for the entire book
+- 2026.3.21
+  - Added annotations to all reference materials
+  - Added exercises to the entire book
+- 2026.3.19
+  - Comprehensively revised all chapters, aiming to approach professional publication standards
+- 2026.3.18
+  - Comprehensively revised Chapter 1, aiming to approach professional publication standards
+- 2026.3.11
+  - Moved "TTY Chinese Console" from "13.1 Bootloader and Configuration Files (loader.conf)" to "8.7 System Font Replacement"
+  - As of today, the PDF export of this book is 2026 pages
+- 2026.3.10
+  - Added "loader.conf System Boot Configuration Information" to "13.1 Bootloader and Configuration Files (loader.conf)"
+  - Added "13.8 Device Resource Hints File (device.hints)"
+  - Renamed "13.2 Managing Services in FreeBSD" to "13.2 init.rc Services"; non-rc service portions split into subsequent sections
+  - "13.2 init.rc Services": completely rewritten
+  - Added "13.9 crontab and Periodic Task Files (periodic.conf)"
+  - Added "13.10 Kernel State Default Configuration File (sysctl.conf)"
+- 2026.3.9
+  - Merged "4.10 System Directory Structure" into "4.1 Windows User Migration Guide"; content overlapped
+  - Added "Appendix: OpenSSH Server Configuration Details" to "13.4 SSH Configuration and Related Tools"
+- 2026.3.8
+  - Added "18.5 Embedded Development"
+- 2026.3.3
+  - Removed "16.2 MinIO Object Storage Service"; reason: upstream no longer maintains it, removed from Ports
+- 2026.3.2
+  - Merged "22.4 LLVM / Clang Overview" into "22.15 Developing C/C++ on FreeBSD", becoming "22.4 Developing C/C++ on FreeBSD"
+  - Merged "22.2 How to Develop a Port" and "22.14 Automatically Generating BSD libc Library Text with Scripts" into "22.3 How to Participate in FreeBSD Development"
+  - Split "20.1 Ren'Py and Godot Game Engines" into "20.1 Ren'Py Visual Novel Engine" and "20.2 Godot Open-Source Game Engine"
+  - Merged "18.1 Introduction to Raspberry Pi" into "18.2 Configuring FreeBSD on Raspberry Pi"
+  - Split "1.1 The History of Operating Systems and Open Source" into "1.1 What is UNIX?", "1.2 The GNU Operating System and the Free Software Movement", and "1.3 Linux and Unix-like Systems"
+  - Updated "Introduction"
+  - Comprehensively restructured chapter organization
+- 2026.3.1
+  - Added "22.15 Developing C/C++ on FreeBSD"
+  - Added "Emacs Editor, Vim" to "4.6 Text Editors"
+  - Split the VS Code section from "22.7 Python and VS Code" into "22.15 Developing C/C++ on FreeBSD"
+- 2026.2.28
+  - Added "3.13 Installing FreeBSD on Apple M1 with UTM"
+  - Added "Prism Launcher" to "20.2 Minecraft"
+  - Deleted "5.3 Usage of gitup". Reason: lacking substantive maintenance for nearly 2 years.
+  - Removed "21.5 Arch Linux Compatibility Layer (based on archlinux-pacman)". Reason: Bug 287690 [sysutils/pacman: The archlinux flavor cannot be built or installed.](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=287690) cannot be resolved
+  - Removed "6.10 Budgie (to be removed)"; reason: poorly maintained, [Bug 289898 x11/budgie: After logging in with LightDM, it crashes and then shows a black screen](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=289898) cannot be resolved
+  - Completely removed "Appendix: Login Screen Themes" from "6.3 KDE 6 (X11 Session)" because only Port x11-themes/sddm-freebsd-black-theme exists in the repository, and it is unmaintained with the issue [x11-themes/sddm-freebsd-black-theme incompatible with SDDM 0.21.0 (Qt6 greeter)](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=293449) unresolved
+  - Noted that Lumina effectively has no maintainer and has not been updated for a long time; removed.
+  - Removed "7.5 Window Maker"; too many bugs, essentially unusable
+  - Removed "7.6 Fluxbox"; too many bugs, essentially unusable
+  - Migrated remaining content of "Chapter 7 Window Managers" to "Chapter 6 Desktop Environments"
+  - Renamed "Chapter 7 Window Managers" to "Chapter 7 Artificial Intelligence (AI)"
+  - Split "22.4 C/C++ Environment Configuration" into "vim Programming Environment Configuration" and "22.4 LLVM / Clang Overview"
+- 2026.2.18
+  - Added "Rocky Linux Version Number Overview" to "21.2 Installing Rocky Linux Compatibility Layer via FreeBSD Ports"
+  - Per <https://reviews.freebsd.org/D55303> and <https://cgit.freebsd.org/src/commit/?id=62fba0054d9eb2303116f54be1f9bc0e7b75cc15>, the ee editor in FreeBSD 16-CURRENT now has UTF-8 support, including Chinese. Local testing passed
+- 2026.2.15
+  - Added: "Understanding that FreeBSD is an Operating System, Not a Distribution" to "4.2 Linux User Migration Guide"
+- 2026.2.14
+  - Completely rewrote "5.2 Changing FreeBSD Software Mirrors"
+- 2026.2.4
+  - Removed "10.4 Configuring OpenVPN"; no substantive content
+- 2026.2.3
+  - Added "Debugging Features in CURRENT" to "24.1 FreeBSD Kernel Options Overview"
+- 2026.1.27
+  - Added important warning to "23.5 Swap Partitions": "On systems with extreme memory pressure, using a zvol as a swap device may cause the system to lock up, regardless of remaining swap space."
+  - Supplemented "Using ZFS Volumes as Swap" in "23.5 Swap Partitions" based on upstream documentation
+- 2026.1.19
+  - Supplemented "6.2 NVIDIA Graphics Drivers"; tested on a desktop with 3060 GPU
+  - Added some archives for remaining links
+- 2026.1.18
+  - Introduced archival CI; added some archives for remaining links
+- 2026.1.17
+  - Added "OpenBSD Automatic Partitioning Source Code Analysis" to "26.2 Installing OpenBSD"
+- 2026.1.16
+  - Let this ever-changing network world find its home: Added Internet Archive backup links for the main external links in the book. Since some projects mostly deploy anti-AI measures and typically have no need for crawling, bug reports, man pages, and FreshPorts were skipped. The FreeBSD forum itself goes down, and this has happened multiple times. This approach presupposes that the Internet Archive itself won't go down, which is also unreliable, but perhaps this is a balance. Most content, including the projects themselves, essentially lacks the significance and necessity of such archiving.
+- 2026.1.11
+  - Supplemented and rearranged "2.1 Pre-Installation Preparation"
+- 2026.1.10
+  - Added cover images for the web version and electronic documents
+- 2026.1.7
+  - Removed "Novel: The Cathedral and the Bazaar"; difficult to rewrite, little practical significance
+  - Added "Novel: The True Color of Green"
+- 2026.1.6
+  - Corrected several factual errors throughout the book
+- 2026.1.4
+  - Added "3.12 Installing FreeBSD on Alibaba Cloud Lightweight Application Server (UEFI and GPT Partition Table)"
+  - Reviewed "26.1 OpenBSD Overview"
+  - Reviewed "27.1 NetBSD Overview"
+  - Adjusted fonts in book code blocks to use IBM Plex Mono
+  - Added mirror site <https://doc.bsdcn.org> for this project; faster access within China. Note the domain is `doc`, without `s`.
+- 2026.1.2
+  - Added "What Makes a GNU/Linux Distribution" to "4.2 Linux User Migration Guide"
+  - Chapters 21-22: corrected several factual errors
+  - Chapters 1-10: added several annotations
+- 2026.1.1
+  - Updated the license date to 2026
+  - "Chapter 21 Linux Binary Compatibility Layer": corrected several factual errors
+  - Added "Appendix: Comparison of Major GNU/Linux Distributions" to "4.2 Linux User Migration Guide"
+
+## Q4 2025
+
+- 2025.12.31
+  - Chapters 16-17: corrected several factual errors
+  - Preliminarily reviewed "Appendix IV: Literary Stories"
+  - Merged "Storage Device Basics" and "Bus Interfaces and Protocols" into "Computer System Architecture"
+- 2025.12.30
+  - Chapters 1-15: corrected several factual errors
+- 2025.12.29
+  - Reviewed "FreeBSD Desktop Distribution Review"
+  - Reviewed "BSD License Overview"
+  - Corrected several word errors in "Appendix IV: Literary Stories"
+  - Migrated "FreeBSD 13/14 Installation Guide" to "2.3 FreeBSD 13 and 14 Installation Guide (amd64 Architecture)"; other chapter numbers incremented accordingly
+  - Roughly reviewed "Appendix III: UEFI/BIOS Basics (Based on AMI BIOS)"
+- 2025.12.28
+  - Reviewed "Appendix I: Introduction to Computing"
+  - "Appendix III: UEFI/BIOS Basics (Based on AMI BIOS)": corrected several factual errors
+- 2025.12.27
+  - Reviewed "Chapter 24: FreeBSD Kernel"
+  - Reviewed "Chapter 26: Introduction to OpenBSD"
+  - Reviewed "Chapter 27: Introduction to NetBSD"
+  - Reviewed "Introduction to DragonFly BSD"
+  - Reviewed "Introduction to TwinCAT/BSD"
+  - Reviewed "FreeBSD-Compatible Network Adapters"
+  - Split "UEFI/BIOS Basics (Based on AMI BIOS)" into "Appendix III: UEFI/BIOS Basics (Based on AMI BIOS)"; other appendix numbers incremented accordingly
+- 2025.12.26
+  - Chapters 23-Appendix III: corrected several factual errors
+  - Reviewed "Chapter 23: Storage and File System Management"
+  - Reviewed "Chapter 25: ZFS File System"
+- 2025.12.25
+  - Chapters 1-16: corrected several factual errors
+  - Reviewed "Chapter 20: Games, Scientific Computing, and Professional Tools"
+  - Reviewed "Chapter 21: Linux Binary Compatibility Layer"
+  - Reviewed "Chapter 22: Development Ecosystem and Community Contributions"
+  - Reviewed "Glossary"
+  - Reviewed "Bibliography"
+- 2025.12.24
+  - Reviewed "Chapter 14: Network Management"
+  - Reviewed "Chapter 15: Firewalls"
+  - Reviewed "Chapter 16: Servers"
+  - Reviewed "Chapter 17: Web Servers and Monitoring Platforms"
+  - Reviewed "Chapter 18: FreeBSD and Embedded Platforms"
+  - Reviewed "Chapter 19: Database Management"
+- 2025.12.23
+  - Reviewed "Chapter 11: Jails"
+  - Reviewed "Chapter 12: Virtualization and Containers"
+  - Reviewed "Chapter 13: System Administration"
+  - Supplemented Chapters 4-6 further
+- 2025.12.22
+  - Reviewed "Chapter 6: Desktop Environments"
+  - Reviewed "Chapter 7: Window Managers"
+  - Reviewed "Chapter 8: Localization — i18n/L10n"
+  - Reviewed "Chapter 9: Multimedia and External Devices"
+  - Reviewed "Chapter 10: Proxy Servers"
+- 2025.12.21
+  - Reviewed "Chapter 3: Advanced FreeBSD Installation"
+  - Reviewed "Chapter 4: FreeBSD Basics"
+  - Reviewed "Chapter 5: Package Management and System Upgrades"
+- 2025.12.20
+  - Reviewed "Chapter 1: Introduction to FreeBSD" (aiming to bring it closer to formal publication standards, de-Handbook-ized)
+  - Reviewed "Chapter 2: Installing FreeBSD"
+  - Reviewed "Preface"
+- 2025.12.17
+  - "Bibliography": compressed table columns, added 3 Oracle reference books, rewrote "not recommended for reading" as "read with caution", supplemented Wang Bo section
+- 2025.12.16
+  - Added "To Readers: Emancipate the Mind, Return to Authenticity, Uphold Humanism, and Reject the Misguided Path of Suffering Philosophy"
+- 2025.12.14
+  - Added "13.7 User Classification and Resource Quotas (login.conf)".
+    - Based on editorial findings, submitted [Bug 291649 Submitted – COPYRIGHT in login classes/login.conf(5) does not work](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=291649)
+- 2025.12.13
+  - Rewrote "7.2 IceWM"
+  - Added "RC Script" to "10.3 Mihomo (Clash)". A request to merge was sent to the Ports maintainer ([Bug 291295 - net/mihomo: Add rc.conf and some Post-installation](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=291295)), but no response was received.
+  - Merged "4.10 Mounting and Unmounting File Systems" and "4.11 Disk Structure" into "4.10 File System Basics"
+  - Split "4.12 Directory Structure" into "4.11 System Directory Structure" and "24.6 FreeBSD Source Code Directory Structure"
+  - Based on editorial findings, supplemented [Bug 236786 FreeBSD -.iso files not support written to USB drive](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=236786)
+- 2025.12.8
+  - Added "Analysis of Possible Reasons for Refusing to Open" to "5.1 FreeBSD Mirror Site Status"
+- 2025.12.7
+  - Completely rewrote: "25.5 Updating ZFS zpool"
+  - Completely rewrote: "5.7 Updating FreeBSD with freebsd-update". Note: When using freebsd-update to upgrade from 14.3 or earlier, you must first update to the latest patch version before upgrading the major version. Otherwise, it will fail. Method: `freebsd-update fetch && freebsd-update install` See <https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=289769> and <https://www.freebsd.org/releases/15.0R/installation/#upgrade-binary>
+- 2025.12.6
+  - Completely rewrote "5.9 Updating FreeBSD with pkgbase" as "5.9 Updating FreeBSD with ZFS Boot Environments and Achieving Multi-Version Coexistence"
+- 2025.12.5
+  - Added ZFS script for viewing, creating, deleting, and restoring ZFS snapshots. [FreeBSD-Ask/zfs-snap project repository](https://github.com/FreeBSD-Ask/zfs-snap)
+  - Also deployed the ZFS script to <https://docs.bsdcn.org/zfs.sh> for convenient direct `fetch` download and use
+  - Added "Appendix: ZFS Version Issues with Multi-Version/System Coexistence" to "25.4 ZFS Boot Environments"
+- 2025.12.4
+  - Added "Appendix: Fixing Keyboard and Mouse Not Working in 15.0 and Later Versions" to "9.4 Touchpad and Keyboard/Mouse"
+- 2025.12.3
+  - Improved "7.4 Hyprland" formatting; corrected the startup command to `dbus-run-session Hyprland`; stated that it does not support running on any virtual machine or NVIDIA GPU
+- 2025.11.30
+  - Compressed "Chapter 25: Introduction to TwinCAT/BSD" with no substantive content into Appendix II "Introduction to TwinCAT/BSD"
+  - Split "23.2 ZFS File System" into "Chapter 25: ZFS File System"
+  - Split the ZFS portion of "23.3 Disk Expansion and Partition Adjustment" into "Chapter 25: ZFS File System"; the original chapter was adjusted to "23.3 UFS File System"
+  - Introduced "powerpc (32/64-bit) Machine-Specific Configuration", "64-bit RISC-V Machine-Specific Configuration", and "arm64 (aarch64) Machine-Specific Configuration" to "24.2 Machine-Dependent Kernel Options"
+  - Added "24.4 GENERIC Kernel Options (amd64)"
+  - Added "Appendix: man config(5) Chinese" and "Appendix: man device.hints(5) Chinese" to "24.1 FreeBSD Kernel Options Overview"
+  - Moved "22.15 Building FreeBSD on Linux" to "Chapter 24: FreeBSD Kernel"
+  - Compressed "2.1-2.9" into Appendix II "FreeBSD 13/14 Installation Guide"
+  - Added "2.2 Installing FreeBSD 15"
+- 2025.11.29
+  - Introduced 100% of "24.3 Machine-Independent Kernel Options"
+  - Fixed "21.7 Gentoo Linux Compatibility Layer". Tested on 15.0-RELEASE.
+  - "21.4 ArchLinux Compatibility Layer (based on ArchLinux bootstrap)": resolved download errors caused by sandboxing.
+    - After the current ArchLinux compatibility layer finishes building chroot, it appears to hang, but it is actually a bash line with no display; normal input still works.
+    - It seems impossible to install fakeroot-tcp via pacman anymore; switching to AUR leads to a chicken-and-egg paradox, but this issue has low priority; the above issue needs to be resolved first.
+- 2025.11.28
+  - Supplemented "To Readers"
+  - Introduced 85% of "24.3 Machine-Independent Kernel Options" (by line count)
+- 2025.11.27
+  - Introduced 82% of "24.3 Machine-Independent Kernel Options" (by line count)
+  - docs: Added two-character indentation at the beginning of paragraphs for typesetting compliance
+- 2025.11.26
+  - Completely rewrote "To Readers"
+  - Introduced 75% of "24.3 Machine-Independent Kernel Options" (by line count)
+    - Based on editorial findings, submitted [Fix typos and unify Realtek terminology](https://github.com/freebsd/freebsd-src/pull/1901)
+- 2025.11.25
+  - Introduced 69% of "24.3 Machine-Independent Kernel Options" (by line count)
+    - Based on editorial findings, submitted [NOTES: Fix a typo in a comments](https://github.com/freebsd/freebsd-src/pull/1899)
+    - Based on editorial findings, submitted [NOTES: Remove duplicate options KCSAN entries](https://github.com/freebsd/freebsd-src/pull/1900)
+  - Since the content was insufficient for a chapter, compressed "Chapter 24: Introduction to DragonFly BSD" into Appendix II "Introduction to DragonFly BSD"
+  - Added "Chapter 24: FreeBSD Kernel"; split "22.16 FreeBSD Kernel Configuration Options" into:
+    - 24.1 FreeBSD Kernel Options Overview
+    - 24.2 Machine-Dependent Kernel Options (amd64)
+    - 24.3 Machine-Independent Kernel Options
+  - Fixed mu-lu CI
+- 2025.11.24
+  - Introduced 56% of "22.16 FreeBSD Kernel Configuration Options" (by line count)
+- 2025.11.23
+  - Introduced 40% of "22.16 FreeBSD Kernel Configuration Options" (by line count)
+  - Introduced RSS feed <https://docs.bsdcn.org/feed.rss>
+- 2025.11.22
+  - Added "22.16 FreeBSD Kernel Configuration Options"; introduced i386/amd64 machine-dependent kernel options
+  - Added "Solaris Performance and Tools" to "References"
+- 2025.11.21
+  - Rewrote "Installing Software with pkg" in "5.4 Managing Binary Packages with pkg"
+- 2025.11.17
+  - Added "Further Reading" to "4.1 Windows User Migration Guide"
+  - FreeBSD installation images lack offline kmod packages; submitted [Bug 291052 - Request to offline-distribute kernel modules and pkg(8) repositories in iso and img images.](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=291052)
+- 2025.11.14
+  - Added "Network Settings" to "3.3 Installing FreeBSD with VirtualBox"
+  - Port [net/wutil](https://www.freshports.org/net/wutil) testing failed; submitted issue [wutil: no wpa ctrl interface on default path, provide --ctrl-interface: No error: 0](https://github.com/MainKt/wutil/issues/2)
+  - Added "Appendix: Fixing Specific Programs Always Opening Automatically at Boot" to "6.3 KDE6 (X11)"
+- 2025.11.13
+  - CSP configuration was incorrect; removed
+  - Added giscus comment functionality to docs
+- 2025.11.12
+  - Added "ZFS History" to "23.2 ZFS File System"
+  - Added "ZFS on NetBSD" to "27.1 NetBSD Overview"
+- 2025.11.9
+  - Unless otherwise noted, the text, figures, and other content of this book are published under the CC BY 4.0 license. All code examples in the book are published under the BSD 2-Clause License.
+  - Removed "12.5 Using bhyve on Wireless Networks" and the "Optional Configuration" section of "12.2 Installing Windows 11 with bhyve (vm-bhyve)". References did not meet standards
+  - Translated all wikis related to the above removed content and placed them at [vm-bhyve Wiki](https://book.bsdcn.org/wen-zhang/wen-zhang/vm-bhyve)
+- 2025.11.8
+  - Since FreeBSD's default ESP does not comply with the UEFI specification, submitted [Bug 290857 - bsdinstall: The ESP on FreeBSD Should Be FAT32 Instead of FAT16: D28897 Is Actually Ineffective](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=290857)
+- 2025.11.5
+  - Added troubleshooting to "26.5 Desktop and Other Software"; resolved "KDE No Sound"
+  - Supplemented contribution guidelines
+- 2025.11.4
+  - Added "Clash for FreeBSD" to "10.3 Mihomo (Clash)"
+- 2025.11.1
+  - Adjusted docs color scheme to be closer to book
+  - Introduced SRI into docs
+  - Introduced CSP into docs
+- 2025.10.30
+  - Adjusted book code blocks to also use "LXGW WenKai"
+  - Adjusted bold font weight for docs and book to Noto SC
+  - Added line numbers to docs
+- 2025.10.29
+  - Switched the overall font of <https://docs.bsdcn.org> (hereafter referred to as docs) to "LXGW WenKai"
+  - Switched the overall font of <https://book.bsdcn.org> (hereafter referred to as book) to "LXGW WenKai"
+  - <https://docs.bsdcn.org> now supports clicking images to view larger versions
+- 2025.10.28
+  - Note: A branch must be specified for submodules `git submodule add -b main --force https://github.com/FreeBSD-Ask/FreeBSD-Ask docs`, otherwise many strange issues will occur.
+  - Made "Update Table of Contents from SUMMARY.md" bypass the PR requirement
+  - Made "🔗 Update Commit Progress" bypass the PR requirement
+  - Introduced "🔗 Update Google Analytics" for real-time (daily updated) display of "📈 Statistics" on the homepage
+  - Introduced "🔗 Update Commit Progress" for displaying project progress on the homepage
+- 2025.10.27
+  - Fixed the issue where the <https://docs.bsdcn.org> mirror site homepage displayed as a directory
+- 2025.10.26
+  - Added a progress badge to display the third edition progress
+- 2025.10.24
+  - Added "Understanding the Quarterly Branch" to "5.2 Changing FreeBSD Software Mirrors"
+  - Added "Ports and Port Overview" to "5.5 Installing Software from Ports (Source Code)"
+  - Added warnings in several locations advising readers to use production releases (RELEASE)
+- 2025.10.23
+  - Added "Installing in VMware" to NetBSD "27.4 Desktop and Chinese Environment Common Software"
+- 2025.10.19
+  - Added "2.11 Restoring a USB Boot Drive to a Normal USB Drive (Windows)"
+- 2025.10.14
+  - Added "Minimal KDE Desktop Installation Scheme" to "6.3 KDE6 (X11)"
+- 2025.10.11
+  - "6.1 Intel and AMD Graphics Drivers": clarified that current AMD graphics drivers have bugs expected to be fixed before the 15.0 RELEASE
+  - "6.1 Intel and AMD Graphics Drivers": clarified that the current FreeBSD drm port does not support Intel DG2 Arc GPUs (e.g., Arc A770); support is expected before 15.1 RELEASE
+- 2025.10.10
+  - Rewrote "GPU Support Status" in "6.1 Intel and AMD Graphics Drivers"
+  - Submitted [Bug 290122 - graphics/drm-latest-kmod: and related DRM ports missing CONFLICTS_INSTALL entries](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=290122)
+- 2025.10.6
+  - Added "Appendix: Analysis of Typical Misconceptions and Ideological Biases in the Context of Free Software and Open Source Software" to "1.1 The History of Operating Systems: UNIX, BSD, and Linux"
+- 2025.10.1
+  - Non-technical questions and topics unrelated to the community, purely personal chats and emotional discussions, etc. will not be replied to. If you have such needs, please consult a professional. Other inquiries are welcome to join the group for discussion.
+
+## Q3 2025
+
+- 2025.9.30
+  - Added "sudo-rs" to "4.9 sudo and doas"
+  - Due to Bug 287690 [sysutils/pacman: The archlinux flavor cannot be built or installed.](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=287690), this section is temporarily unavailable. If not resolved within six months (before 2026-04-01), "21.5 ArchLinux Compatibility Layer (based on archlinux-pacman)" will be removed.
+  - The main Budgie maintainer Olivier Duchateau has continued updating, but normal desktop login is not possible. Bug 289898 [x11/budgie: After logging in with LightDM, it crashes and then shows a black screen.](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=289898). If not resolved within six months (before 2026-04-01), "6.10 Budgie" will be removed.
+  - Updated "19.1 PostgreSQL" to "PostgreSQL 18"
+- 2025.9.28
+  - 2025 FreeBSD Community Survey Report.pdf <https://www.alipan.com/s/6vUR7W6xfpC> Access code: nq19 Click the link to save, or copy this text and open the "Alipan" APP for instant online viewing without downloading, original video quality with variable speed playback.
+  - The above is the Chinese version; the original is [the FreeBSD Foundation's PDF](https://freebsdfoundation.org/wp-content/uploads/2025/09/FreeBSD-2025-Community-Survey-Report-Final.pdf).
+- 2025.9.27
+  - Submitted regarding the fwget tool's inability to install drivers for RTL8125 2.5GbE Ethernet cards: [Bug 289862 - fwget(8) does not support Realtek Ethernet (RTL8125 2.5GbE, realtek-re-kmod) despite packages being available](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=289862).
+- 2025.9.23
+  - Directly introduced the video group during installation.
+  - Do not use freebsd-update to upgrade to 15.0-ALPHA3. This operation installs the new libc before installing libsys, resulting in system corruption. We will fix freebsd-update to ensure libraries are installed in the correct order, but until the relevant patch (and corresponding errata notice) is released, this upgrade method is temporarily unavailable. — Colin Percival, FreeBSD Release Engineering Lead & EC2 Platform Maintainer. See: 003244[EB/OL]. [2026-03-26]. <https://lists.freebsd.org/archives/freebsd-stable/2025-September/003244.html>.
+- 2025.9.22
+  - If a regular user is not added to the video group (wheel is not enough), then in KDE settings, "About This System" will always show "llvmpipe" for "Graphics Driver". And under Wayland, regular users will not have permission to access the GPU.
+  - Added "Appendix: Expanding Taskbar Icons" to "6.3 KDE6 (X11)"
+  - Completely rewrote "6.16 KDE6 (Wayland)"
+- 2025.9.19
+  - "1.2 Introduction to FreeBSD" — "Technical Reasons for Choosing FreeBSD" added "Security Reasons"
+- 2025.9.15
+  - Added "22.15 Building FreeBSD on Ubuntu"
+- 2025.9.10
+  - Rewrote "9.1 Audio Device Configuration"
+  - Added "6.16 KDE6 (Wayland)"
+- 2025.8.31
+  - Currently, setting the wireless (Wi-Fi) region code to `CN NONE` (`create_args_wlan0="country CN regdomain NONE"`) is incorrect because FreeBSD's files are poorly maintained, which actually prevents negotiation of Wi-Fi 5 (VHT40 on FreeBSD); the speed is always 11a instead of the expected 11ac; and the DFS configuration is also incorrect. A bug report has been submitted: [Missing CN regulatory domain and 11ac/DFS support in regdomain.xml](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=289202). Workaround: If your channel > 48, you need to specifically modify or write `create_args_wlan0="country HR regdomain ETSI"` in **/etc/rc.conf**; if your channel <= 48 and `create_args_wlan0="country CN regdomain NONE"` exists, please remove it because the default FCC US configuration supports Wi-Fi 5 protocol. Testing shows that even with Wi-Fi 6 routers, WPA3 and 160MHz are supported. With the above workaround, an Intel AX200 NIC on FreeBSD 14.3-RELEASE can successfully negotiate 11ac.
+  - Because the main Budgie maintainer Olivier Duchateau stated he is no longer interested in this project and has abandoned maintenance. And no one has volunteered to maintain it; the core component Port `sysutils/budgie-control-center` is [marked as](https://www.freshports.org/sysutils/budgie-control-center/) `broken`. Considering removing 6.10 Budgie in the future. If it is not fixed within 6 months, we will suggest upstream remove this project and remove this section from the book.
+- 2025.8.24
+  - Added: "12.5 Using bhyve on Wireless Networks"
+  - Added "History" to "4.2 Linux User Migration Guide"
+- 2025.8.20
+  - Added "3.10 Installing FreeBSD on Cloud Servers (KVM, QEMU, etc.)"
+- 2025.8.18
+  - Added: Maximum hardware support to "2.1 Pre-Installation Preparation"
+- 2025.8.17
+  - 3.9 Installing FreeBSD on Cloud Servers (Tencent Cloud Lightweight Cloud): tested multiple alternative solutions, all failed
+- 2025.8.14
+  - Merged "1.2 Welcome to FreeBSD" and "1.3 About the FreeBSD Project" into "1.2 Introduction to FreeBSD"; the original section titles didn't convey their purpose
+  - Moved "Window Managers" and "Advanced FreeBSD Installation" earlier for convenience
+- 2025.8.13
+  - Supplemented 2.2 Installing FreeBSD with bsdinstall: added ACPI warning, introduced bsdinstall overview
+  - Merged "Organization of This Book" and "Conventions Used in This Book" into the Introduction
+  - Merged three prefaces into the Preface
+- 2025.8.7
+  - Rewrote: Organization of This Book
+- 2025.7.31
+  - Added: Appendix 2 UEFI/BIOS Notes (Based on AMI BIOS)
+- 2025.7.30
+  - The previous issue where KDE on Wayland showed a black screen after right-clicking the desktop at startup has been resolved. See <https://old.reddit.com/r/freebsd/comments/1m9popo/kde_mini_review/n5dv1uk/> and <https://github.com/freebsd/freebsd-ports/pull/431>. Currently installed users only need to `make reinstall` Ports `graphics/qt6-wayland` and `/x11/plasma6-layer-shell-qt`. Or wait a few days for `pkg upgrade`; there should be no black screen issue after installation.
+- 2025.7.23
+  - Restored the book title "FreeBSD: From Beginner to Running Away"
+- 2025.7.7
+  - 17.7 OpenList added: Multi-owner permission management for local storage
+  - 17.7 OpenList added: Movie scraping
+- 2025.7.6
+  - Added: 17.7 OpenList
+  - 6.2 Fcitx Input Method Framework: separated the installation of RIME Zhongzhou Yun Input Method (optional) as an independent subsection, and emphasized the necessity of chinese/rime-essay
+  - 20.1 Renpy Games and Godot Games: removed the five-minute game. They are all desktop-bundled games; listing them is meaningless
+  - Added: 20.4 Steam
+- 2025.7.5
+  - Rewrote: 6.6 QQ (Linux Version). Fcitx5 input method framework tested successfully in all compatibility layers; Chinese character input works normally
+- 2025.7.4
+  - Added: 6.11 Wine
+
+## Q2 2025
+
+- 2025.6.24
+  - FreeBSD 14.3's Wi-Fi country select has issues. No matter which one you choose, you get this error: `Error while applying chosen settings  (unknown regdomain Expected  eval: Use: not found)` See: Bug 287538 - Installer error on setting regdomain[EB/OL]. [2026-03-26]. <https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=287538>. The workaround is to write it manually; refer to the wireless networking chapter.
+- 2025.6.23
+  - 3.6 Text Editors added: microsoft-edit
+- 2025.6.21
+  - Formatted: Section 21.5 ArchLinux Compatibility Layer (based on archlinux-pacman)
+  - Added automatic numbering to the mirror site <https://docs.bsdcn.org/>
+  - Rewrote: 22.7 Python and VS Code: Python
+  - This book was renamed "Introduction to the FreeBSD Operating System Research"
+- 2025.6.20
+  - Section 1.2 Welcome to FreeBSD: completely rewrote "Why Choose FreeBSD", removing descriptions about Linux
+- 2025.6.19
+  - Adjusted table of contents structure
+  - Section 19.1 PostgreSQL: updated PostgreSQL to 17
+  - Section 19.2 pgAdmin4 updated to pgadmin4-9.0
+  - Section 23.7 ZFS Disk Encryption merged into FreeBSD installation chapter
+- 2025.6.17
+  - Added a glossary as an appendix
+  - Adjusted table of contents structure
+  - Added: Installing VirtualBox on FreeBSD
+- 2025.6.16
+  - Merged Section 1.2 FreeBSD Brief History into: Section 1.2 About the FreeBSD Project
+  - Section 8.2 Users and Basic Account Management added: Account Types
+  - Separated the bibliography as an appendix
+- 2025.6.15
+  - Planned a complete rewrite of the FreeBSD Handbook
+- 2025.6.14
+  - Re-introduced: [Contribution Guide and Open Tasks](CONTRIBUTING.md)
+- 2025.6.13
+  - Section 1.1 History of Operating Systems: UNIX, Unix-like, Linux & FreeBSD rewrote: What is Linux?
+  - Section 1.1 History of Operating Systems: UNIX, Unix-like, Linux & FreeBSD added: GNU and the Free Software Movement
+  - Section 6.6 Video Players added: Appendix: Playing Video Directly in TTY (mpv)
+- 2025.6.12
+  - Section 4.3 GNOME: Welcome to GNOME 47
+- 2025.6.10
+  - Section 26.3 Configuring OpenBSD rewrote: doas
+  - Section 26.1 OpenBSD Overview added: Other Security-Focused BSD Systems
+  - Section 26.1 OpenBSD Overview added: OpenBSD IPSEC Stack FBI Backdoor Incident
+- 2025.6.9
+  - Section 26.1 OpenBSD Overview added: Opportunities and Challenges, Selected Quotes
+- 2025.6.8
+  - Section 1.1 History of Operating Systems: UNIX, Unix-like, Linux & FreeBSD added: Draft: Unix Philosophy in the 21st Century
+  - Section 1.1 History of Operating Systems: UNIX, Unix-like, Linux & FreeBSD supplemented: The Ship of UNIX: Is FreeBSD UNIX?
+  - Section 4.1 Graphics Drivers (Intel, AMD) added: AMD Video Hardware Decoding
+- 2025.6.7
+  - Restored some literary stories based on survey results
+- 2025.6.6
+  - Section 2.3 UNIX Basics (Beginner Version) added: Differences Between Windows and Unix Character Encoding
+  - Section 2.3 UNIX Basics (Beginner Version) added: Differences Between Windows and Unix Time Settings
+  - Section 2.4 Command Line Basics (Beginner Version): added "You Are Not Alone"
+- 2025.6.4
+  - Section 2.3 UNIX Basics (Beginner Version) added: Differences Between Windows and Unix Line Endings/Carriage Returns; still need to supplement encoding differences, time zone differences, etc.
+- 2025.5.30
+  - Added: Section 1.7 BSD License Overview
+- 2025.5.23
+  - Added: Section 10.3 Podman
+- 2025.5.17
+  - Removed "Section 21.2 Linux Compatibility Layer — Based on CentOS (FreeBSD Port)"; outdated
+- 2025.5.16
+  - Recorded video tutorial [FreeBSD 14.2 Basic Installation and Configuration Tutorial](https://www.bilibili.com/video/BV1STExzEEhh)
+- 2025.5.12
+  - Removed "Based on Wayland" from "Section 4.18 KDE6"; may contain errors
+- 2025.5.9
+  - Rewrote: Section 22.8 Rust/Go Environment Configuration
+  - This branch was converted to a community version, removing ykla's personal views and retaining neutral content. This branch is now community-maintained; PRs welcome.
+- 2025.5.8
+  - Section 2.4 Command Line Basics (Beginner Version): added "Basic Usage of the `vi` Editor"
+- 2025.5.6
+  - Split "Section 2.2 FreeBSD Installation Illustrated" into "Section 2.1 Pre-Installation Preparation (Beginner Version)"
+- 2025.5.5
+  - Tested "Section 22.4 C/C++ Environment Configuration"
+  - Rewrote "Section 4.5 Xfce"
+  - UNIX Basics (Beginner Version): added "Case Sensitivity"
+- 2025.5.2
+  - Added "Section 2.3 UNIX Basics"
+- 2025.4.29
+  - Introduced GitHub Action "🔗 Check Markdown Image References". Used to verify image usage
+  - Rewrote "Section 5.4 Wubi Input Method"
+- 2025.4.28
+  - Chapter 26 OpenBSD: updated to OpenBSD 7.7
+  - Merged "Section 8.2 Adding Users" into "Section 8.2 Users and Groups"
+  - Rewrote "Section 8.2 Users and Groups"
+  - Removed some unverified and potentially unreliable content from the internet
+  - Rewrote "Section 5.4 Wubi Input Method"; note that the last part was not tested.
+  - Reformatted: Section 5.1 Localization Environment Variables
+  - "Section 13.4 SSH Configuration and Related Tools": removed review questions, removed description about OpenSSH version as it is outdated
+  - Today, a total of 5 A4 pages of space were cleaned up
+  - "Section 14.1 TCP Stack" added "Using RACK Stack"
+- 2025.4.25
+  - Renamed again to "FreeBSD: From Beginner to Reminiscence"
+  - Rewrote "Section 6.3 Printers"
+- 2025.4.24
+  - Section 4.2 Graphics Drivers (NVIDIA): completely rewritten
+- 2025.4.22
+  - "FreeBSD: From Beginner to Running Away" restored its old name "Introduction to the Art, Science, and Philosophy of FreeBSD"
+  - Section 5.2 Fcitx Input Method Framework: reformatted
+  - Split "Section 4.1 Graphics Drivers" into "Section 4.1 Graphics Drivers (Intel, AMD)" and "Section 4.2 Graphics Drivers (NVIDIA)"
+  - Section 9.3 Managing Jails with Qjail: reformatted
+  - Due to long-ignored emails, today sent international letters to the "FreeBSD Foundation" (RD664821800CN) and "OpenBSD Foundation" (RD664821795CN) respectively, to report the current poor donation channels and to call for attention to mainland China, etc.
+- 2025.4.21
+  - "Section 5.6 QQ (Linux Version)" added: Resolving the issue of fcitx Chinese input method not working in QQ
+
+---
+
+- 2024.8.1-2025.4.20
+  - "FreeBSD: From Beginner to Running Away" second edition completed (TAG 2025.4.20)
+
+---
+
+- 2025.4.20
+  - Formatted the entire book
+  - Achieved 100% rewrite of the entire first edition
+- 2025.4.19
+  - Chapter 4 Desktop Environments: added software explanations
+  - Removed redundancies and reformatted the entire book
+- 2025.4.18
+  - "Section 2.2 Command Line Basics (Beginner Version)" added: shutdown, reboot, `&&`, `||`
+- 2025.4.17
+  - Rewrote: The installing Samba section of Section 16.7 Samba Server; the rest could not be tested
+  - Rewrote: Section 16.6 rsync Sync Service
+- 2025.4.16
+  - Formatted: Section 14.2 Wi-Fi
+  - "Section 27.4 Desktop and Chinese Environment Common Software": rewrote and introduced: KDE 4. Because physical machine testing succeeded.
+  - Split "Section 1.1 History of Operating Systems: UNIX, Unix-like, Linux & FreeBSD" into "Section 1.2 FreeBSD Brief History"
+  - Rewrote: Section 2.6 Installing FreeBSD on Cloud Servers (Tencent Cloud Lightweight Cloud)
+  - Split the preface
+  - Introduced GitHub Action: 🔗 Update top-level headings from SUMMARY.md. Used to check consistency between SUMMARY headings and corresponding file top-level headings
+- 2025.4.15
+  - Formatted: Section 5.6 QQ (Linux Version)
+  - Section 4.20 Remote Desktop: removed the remaining "VNC vs. RDP (XRDP) Comparison" section
+- 2025.4.14
+  - Currently, 96.57% of the first edition has been rewritten (by commit count)
+  - Formatted "Section 11.5 MySQL Database"
+  - Removed unnecessary images taking up significant space
+- 2025.4.13
+  - "Section 16.5 WildFly" basically tested successfully, but note that the patch has not yet been merged into the mainline; see [Bug 285956 - java/wildfly: service start fail, illegal group name](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=285956).
+  - Added "Section 24.3 Configuring DragonFly BSD"
+  - Rewrote "Section 24.2 Installing DragonFly BSD"
+- 2025.4.11
+  - By adjusting paragraph spacing, PDF pages went from 1209 to 1084, a 10.34% reduction in page usage.
+- 2025.4.10
+  - Tested and rewrote "Section 2.8 Manual Dual-Boot Installation (FreeBSD Installed Second)"
+  - NetBSD 10.1 in a VMware virtual machine, regardless of UEFI, shows a black screen when entering KDE 4.
+- 2025.4.9
+  - Used <https://gist.github.com/ykla/adf011fea43f5f4b91aa6f065ac09da2> to organize all code blocks longer than 30 lines in the book.
+  - Widow/orphan control; removed redundancies.
+  - From 1238 pages to 1209 pages, a 2.34% reduction in invalid pages.
+- 2025.4.8
+  - Updated "Section 27.2 NetBSD Installation Illustrated" to NetBSD 10.1
+  - Updated "Desktop and Chinese Environment Common Software" to NetBSD 10.1
+  - Added input method to "Desktop and Chinese Environment Common Software"
+  - Added Chinese environment to "Desktop and Chinese Environment Common Software"
+  - NetBSD KDE 4 UEFI testing failed, still black screen; see error at <https://gnats.netbsd.org/57554>
+  - "Section 16.5 WildFly" testing failed; see [Bug 285956 - java/wildfly: service start fail, illegal group name](https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=285956)
+- 2025.4.7
+  - Fully translated all existing post-installation instructions
+  - From [2024.8-3533 commits](https://github.com/FreeBSD-Ask/FreeBSD-Ask/commit/c4d657fb586f91e9f8664ee1181a2711f7350d17), currently 94% of the first edition has been rewritten (by commit count); same below
+  - Removed "Section 11.3 Heatsinks, Fans, Blowers"; may contain erroneous content
+- 2025.4.6
+  - "Section 17.8 PostgreSQL and pgAdmin4" added "Deep Dive into PostgreSQL Service Management"
+  - Added images to "Section 4.21 FreeBSD Desktop Distributions"
+- 2025.4.5
+  - Preliminarily rewrote Section 15.4 ipfirewall (IPFW)
+  - Formatted Section 15.2 PF
+  - Formatted Section 15.3 IPFilter (IPF)
+  - Added "Section 4.21 FreeBSD Desktop Distributions"
+- 2025.4.4
+  - Split "Chapter 6: Multimedia and Peripherals" from various chapters
+  - Formatted "Section 5.1 Input Methods and Environment Variables"
+  - Formatted "Section 21.12 Linux Compatibility Layer and Jails"
+  - mihomo (formerly Clash); related chapters need to be rewritten; we need a GUI!
+- 2025.4.3
+  - Split "Section 20.6 Minecraft" from "Section 20.1 Games"
+  - Split "Section 20.2 Audio/Video Players and Editing" into "Section 20.2 Audio Players", "Section 20.3 Video Players", and "Section 20.4 Audio/Video Editing and Image Processing"
+  - Tested "Section 20.5 Scientific and Professional Tools" and added "Calibre Document Management (epub, mobi, azw3, etc.)"
+  - Added images to "Section 20.5 Scientific and Professional Tools"
+  - "Section 20.1 Games": rewrote "Renpy Games"
+- 2025.4.2
+  - Tested "Section 20.2 Audio/Video Players": tried playing the TV series "Servant of the People", tried playing the anime "Makeine: Too Many Losing Heroines!"; tests passed
+- 2025.4.1
+  - <https://mirrors.aliyun.com/freebsd-pkg/> appears to have lost synchronization long ago. Still showing content from before the kmod source submission in February, so it was not included
+
+## Q1 2025
+
+- 2025.3.31
+  - Migrated the mirror site to <https://docs.bsdcn.org/>
+- 2025.3.30
+  - Deployed a mirror site, temporarily at <https://freebsd-ask.github.io>, using VitePress
+- 2025.3.29
+  - From now on, a PDF document will be generated daily on GitHub release
+  - Generated a new Windows 24H2 font package for GitHub Actions
+  - Rewrote the PDF export tool
+- 2025.3.27
+  - Added "vsftpd" to "Section 16.1 FTP Server"
+  - Introduced GitHub Actions: 🔗 Update Table of Contents from SUMMARY.md
+  - Introduced GitHub Actions: 🔗 Check SUMMARY.md Table of Contents
+  - Introduced GitHub Actions: 🔗 Create and Publish PDF Document; from now on, a PDF document will be generated every 5 days on GitHub release
+- 2025.3.26
+  - Rewrote "Pure-FTPd (Based on MySQL)"
+  - Rewrote "ProFTPD (Based on MySQL)"
+  - "Section 2.2 Command Line Basics (Beginner Version)" added "Differences Between UNIX and Windows Filename Conventions"
+- 2025.3.25
+  - Added "Section 15.5 Fail2Ban (Based on IPFW, PF, IPF)"
+  - Merged "Section 12.2 FreeBSD EFI Boot Management" into "Section 12.5 Grub & UEFI and efibootmgr"
+- 2025.3.24
+  - Tested "Section 4.2 Installing KDE6"; no compatibility issues with VMware virtual GPUs. Scaling and seamless mouse switching work normally. Note: USTC mirror may have issues.
+  - Rewrote "Acknowledgments"
+  - Based on [clean-master/freebsdcn](https://github.com/clean-master/freebsdcn/graphs/contributors), corrected the project start date to March 14, 2021. Also acknowledged the historical contributions of clean-master.
+  - Rewrote "Using FreeBSD to Remotely Access Other Machines" in "Section 4.23 Remote Desktop Management"
+- 2025.3.23
+  - Formatted the entire book.
+  - Tested "Section 21.4 Linux Compatibility Layer — Based on ArchLinux bootstrap"; passed on 14.2
+  - Corrected all broken external links and image references throughout the book
+- 2025.3.22
+  - Updated "Section 3.6 Installing Software via DVD" to 14.2. Note: The method of using `bsdinstall` to install software via DVD failed testing!
+  - Preliminarily rewrote "Section 22.0 How to Subscribe to FreeBSD Mailing Lists"
+  - Adjusted chapter ordering throughout the book; renamed all chapter titles to match actual content
+  - Removed "Section 2.8 Pre-installed Virtual Machine Images (Self-made)"; expired
+  - Compressed "Chapter 25: TwinCAT/BSD"
+  - Removed dedication and afterword; no substantive content
+  - Removed "Section 24.4 Disabling Sendmail"; expired
+  - Removed "Section 5.8 Wine"; no substantive content
+  - "Section 6.6 Ext 2/3/4 File Systems" preliminarily rewritten; still needs testing
+  - Removed "Section 9.1 Comparison of Jails and Docker"; no substantive content
+  - Merged "Section 14.6 USB Ethernet and USB Wireless NICs" into "Section 14.5 USB NICs & Ethernet NICs"
+  - Removed "Section 24.2 BSD-style make/grep/sed/awk"; no substantive content
+  - Removed "Chapter 13: DTrace"; no substantive content
+  - Merged "Chapter 12: FreeBSD Directory Annotations" into "Chapter 13: FreeBSD System Administration"
+  - Removed "Section 10.1 Installing VirtualBox on FreeBSD"; no substantive content
+  - Merged "Section 6.1 UFS" into "Section 6.3 Disk Expansion"; no substantive content
+  - Moved "Section 1.5 FreeBSD Development Plan" to the online article collection
+  - Removed "Section 18.4 USB NICs and Wi-Fi"; duplicates other sections
+  - Merged "Section 18.6 Raspberry Pi 5" into "Section 18.2 Installing FreeBSD on Raspberry Pi" and removed redundant output
+  - Rewrote "Section 17.7 Telegraf+InfluxDB+Grafana Monitoring Platform"
+  - Rewrote "Section 6.6 Linux File Systems"
+  - Preliminarily rewrote "Section 1.4 Linux User Migration Guide"
+- 2025.3.21
+  - Rewrote "Section 22.9 Shell"
+  - Added "Section 24.3 bsdconfig System Configuration Tool"
+  - Rewrote "Section 5.9 Compression and Decompression"
+  - "Section 2.1 Command Line Basics (Beginner Version)" added "Scrolling Up/Down by Page/Line in the TTY Interface"
+  - Removed "Section 22.11 Git" because it has no actual content and the useful commands have been distributed throughout the book
+  - Renamed all chapter titles to match actual content
+- 2025.3.20
+  - Moved and merged "Section 11.7 Command Line Basics" into "Section 2.7 Using the Built-in Text Editor ee", becoming "Section 2.7 Command Line Basics (Beginner Version)", and moved to "Section 2.1 Command Line Basics (Beginner Version)"
+  - "Section 15.1 Network Parameter Configuration Commands" added **/etc/rc.conf** related content. Note: This section needs to be supplemented with equivalent temporary `ifconfig` and `route` commands later.
+  - "Section 23.4 Boot Screen" added "Screen Saver"
+  - Supplemented English original name explanations for most commands in Chapters 1-5.
+- 2025.3.19
+  - "Section 11.7 Command Line Basics" added "thefuck: Automatically Correct Misspelled Commands"; but note that the developer with commit access seems to no longer maintain it
+  - "Section 11.7 Command Line Basics" added basic command line commands
+  - Preliminarily rewrote "Section 8.4 User Permissions"
+- 2025.3.18
+  - "Section 6.3 Disk Expansion" added "Appendix"
+  - Moved "Section 1.5 Who Uses FreeBSD (Official Foundation Version)" and "Section 1.7 FreeBSD Feature Development Projects" to the article collection. Because this part was too lengthy.
+  - Added "Section 11.7 Command Line Basics"
+- 2025.3.9
+  - "Section 22.4 C/C++ Environment Configuration" added "vim-codefmt Code Formatting"
+- 2025.3.7
+  - "Section 5.4 Installing Firefox and Chromium" added "Syncing Chromium with a Google Account"
+- 2025.3.4
+  - Rebuilt "Chapter 12: FreeBSD Source Code Analysis"
+- 2025.3.3
+  - Completely rewrote "Section 22.5 Java Environment Configuration"
+  - Added images to "Section 22.6 Qt Environment Configuration"
+- 2025.3.2
+  - Added "Section 16.10 Gitlab-EE"
+- 2025.3.1
+  - Added "Section 17.15 Zabbix Monitoring (Based on PostgreSQL)"
+- 2025.2.28
+  - Updated "FreeBSD Mirror Site Status"
+- 2025.2.26
+  - Added "Section 1.9 University of California, Berkeley and 'Fiat Lux'"
+  - Moved literary stories to <https://freebsd.gitbook.io/cfc>
+  - Added "Section 17.14 OnlyOffice (Based on PostgreSQL)"
+- 2025.2.25
+  - "Section 17.5 MySQL 8.X" added "MySQL 8.4 LTS"
+  - Added "Section 17.11 MongoDB 80"
+  - "Section 23.5 Grub & UEFI and efibootmgr" added "EFI Partition Deletion and Reconstruction", but questions about file clusters remain
+  - Completely rewrote "Section 17.1 Apache"
+  - Completely rewrote "Section 17.2 Nginx"
+  - Completely rewrote "Section 17.3 PHP 8.X"
+  - Added "Section 17.12 Tomcat"
+  - Added "Section 17.13 Caddy"
+- 2025.2.24
+   "Section 6.2 ZFS" added "ZFS Compression"
+   "Section 23.5 Grub and Other Bootloaders" added "UEFI and efibootmgr"
+  - "Section 3.2 FreeBSD Software Mirror Switching Method" added "kernel modules (kmods) source: For FreeBSD 14.2 and later (excluding 15.0-CURRENT)"
+  - Split "Section 2.13 Configuring rEFInd (for Dual Boot)" from "Section 2.10 Manual Dual-Boot Installation (FreeBSD Installed First)"
+- 2025.2.23
+  - Added "Afterword"
+- 2025.2.21
+  - Added "Section 2.12 Installing FreeBSD — Based on Apple M1 & VMware Fusion Pro"
+- 2025.2.19
+  - Produced video tutorial ["003-FreeBSD14.2 Installing KDE6"](https://www.bilibili.com/video/BV12zAYeKEej)
+- 2025.2.16
+  - Split "Git & Linux Fiasco and FreeBSD Fiasco" into 19.5, 19.6, 19.7
+- 2025.2.15
+  - Updated and supplemented "Section 16.9 Webmin"
+- 2025.2.14
+  - Added "Section 17.10 Prometheus Monitoring Deployment"
+- 2025.2.13
+  - Removed the original KDE6 chapter; updated the KDE5 chapter to KDE6.
+- 2025.2.11
+  - "Chapter 18: Raspberry Pi Embedded & RISC-V" added "Section 18.9 Radxa X4"
+  - "Section 2.0 FreeBSD Installation Illustrated" added images, split chapters, and supplemented instructions for creating a regular user
+- 2025.2.10
+  - "Section 2.0 FreeBSD Installation Illustrated" added "Auto (UFS)"
+- 2025.2.3
+  - "Section 1.1 UNIX, Unix-like, Linux and FreeBSD Introduction" added "UNIX and the Ship of Theseus"
+- 2025.2.1
+  - Merged "Section 18.6 Introduction to RISC-V" into "Section 18.8 Installing OpenBSD on RISC-V Development Boards"
+  - "Section 2.0 FreeBSD Installation Illustrated" completed menu translation
+- 2025.1.28
+  - "Section 23.4 Boot Screen" added: "Adjusting Boot Screen and TTY Resolution" and "Customizing the Bootloader Logo"
+- 2025.1.21
+  - Changed the license from BSD License to CC-BY License (Attribution 4.0 International)
+- 2025.1.19
+  - Updated "Section 21.3 Linux Compatibility Layer — Based on Ubuntu/Debian"; tested on 14.2
+  - Completely rewrote "Section 14.3 USB Network Tethering"
+  - Completely rewrote "Section 21.1 Linux Compatibility Layer Implementation"
+  - De-sinicized image filenames for programming convenience
+- 2025.1.18
+  - Added "Acknowledgments"; moved "Contributor List" to this separate page
+  - Added "Dedication"
+  - Added "Conventions"; moved non-preface content from "Preface" here.
+- 2025.1.13
+  - Closed Issue [Section 1.5, content is incorrect](https://github.com/FreeBSD-Ask/FreeBSD-Ask/issues/159)
+  - Added "Section 2.11 Installing RISC-V FreeBSD with QEMU (Based on x86 Windows)"
+  - Added "Section 4.23 Installing Fluxbox"
+  - Added "Section 4.24 Installing IceWM"
+  - "Section 24.5 Automatically Generating BSD libc Library Text with Scripts": script updated
+  - "Section 8.1 sudo and doas" added "doas"
+- 2025.1.11
+  - "Section 4.13 Installing KDE6" added "Based on Development Ports (Requires Long Compilation Time)"
+- 2025.1.10
+  - "Section 2.4 Installing FreeBSD — Based on VMware Workstation Pro" rewrote "Shared Folders"
+- 2025.1.9
+  - Added images to "Section 4.16 Installing CDE"
+- 2025.1.8
+  - Merged "Section 4.0 Overview (Must Read)" into Section 4.1
+  - Renamed "Section 4.1 Installing Graphics Drivers and Xorg (Must Read)" to "Section 4.1 Desktop Environment Overview, Installing Graphics Drivers & Xorg"
+  - "Section 4.3 Installing GNOME" added "Adjusting Some Anti-Human Settings" and added images
+  - Added images to "Section 4.5 Installing Xfce"
+  - Added images to "Section 4.6 Installing Cinnamon"
+  - Added images to "Section 4.8 Installing LXQt"
+  - Added images to "Section 4.4 Installing Mate"; removed redundancies
+  - Added "Section 4.14 Installing Budgie"
+  - Added images to "Section 4.7 Installing Lumina"
+  - Added "Section 4.21 Installing LXDE"
+  - Added "Section 4.22 Installing Window Maker"
+  - "Section 19.2 Linux Fiasco and FreeBSD Fiasco" added "Why Not Choose Linux as a Desktop Operating System?"
+- 2025.1.6
+  - Added "Section 2.9 Installing FreeBSD — Based on Apple M1 & Parallels Desktop 20"
+  - Added "Section 2.10 Manual Dual-Boot Installation (FreeBSD Installed First)"
+  - "Section 2.9 Installing FreeBSD — Based on Apple M1 & Parallels Desktop 20" added "Virtual Machine Tools"
+
+## Q4 2024
+
+- 2024.12.22
+  - "Section 2.4 Installing FreeBSD — Based on VMware Workstation Pro" added "Troubleshooting"
+- 2024.12.21
+  - Added "Section 10.3 Managing BHyve via Web with BVCP"
+  - "Preface" added "Existence is Junk (2025 Foreword)"
+- 2024.12.19
+  - "Section 6.3 Disk Expansion" added "ZFS Disk Expansion" subsection
+  - Completely rewrote "Section 10.3 Installing Windows 11 with bhyve".
+  - "Section 2.3 Installing FreeBSD — Based on VirtualBox" supplemented images
+  - Supplemented ports for related software packages in Chapter 20; removed defunct packages
+  - Removed "Section 10.1 Introduction to Virtualization" with no substantive content
+  - Completely rewrote "Section 23.3 FreeBSD Chinese TTY Console"; verification passed
+  - Added "Section 4.21 Installing KDE6"
+  - Removed "Section 4.13 Installing Wayland (Optional)" with no substantive content
+- 2024.12.18
+  - "Section 2.4 Installing FreeBSD — Based on VMware Workstation Pro" added "Configuring the Virtual Machine"
+  - "Section 2.0 FreeBSD Installation Illustrated" restored the "How to Check if Your Hardware is Supported" subsection
+  - "Section 1.3 Why Use FreeBSD" added "Honesty and Trustworthiness" subsection
+  - Merged "Editorial Notes", "References", and "Contributor List" into "Preface"
+  - "Preface" added "2021-2024 Self-Preface"
+- 2024.12.17
+  - "Section 2.0 FreeBSD Installation Illustrated" added "FreeBSD Image Description" subsection
+  - Merged the original "Section 2.6 Which Image to Download for Regular Computers, and How to Burn the Image?" into "Section 2.0 FreeBSD Installation Illustrated"
+  - Added "Section 1.8 Who Uses FreeBSD? (Chinese Community Version)"
+- 2024.12.16
+  - "Section 26.1 Installation" updated to OpenBSD 7.6
+  - "Section 26.4 Desktop and Other Software" KDE5 still fails testing on OpenBSD 7.6, and the errors look more severe
+- 2024.12.14
+  - Brought the FreeBSD-related content of the literary stories chapter back online
+- 2024.12.4
+  - Produced video tutorials "[001-Windows 11 Installing VMware17](https://www.bilibili.com/video/BV1Qji2YLEgS)", "[002-VMware17 Installing FreeBSD14.2](https://www.bilibili.com/video/BV1gji2YLEoC)", "[003-FreeBSD14.2 Installing KDE5](https://www.bilibili.com/video/BV13ji2YLELM)", "[004-FreeBSD14.2 Allowing root SSH Login](https://www.bilibili.com/video/BV1gji2YLE2o)", "[005-FreeBSD14.2 Changing pkg Source to USTC Mirror](https://www.bilibili.com/video/BV13ji2YLEkV)", and "[006-FreeBSD14.2 Installing fcitx5 and Input Methods](https://www.bilibili.com/video/BV13ji2YLE3m)". These have been inserted into the corresponding table of contents.
+- 2024.12.3
+  - "Section 1.3 Why Use FreeBSD" added "Old News: 'FreeBSD Foundation Receives Largest Donation Ever'"
+- 2024.11.30
+  - "Section 3.7 Updating FreeBSD via freebsd-update" updated to FreeBSD 14.2-RELEASE
+  - "Section 2.0 FreeBSD Installation Illustrated" updated to FreeBSD 14.2-RELEASE
+  - "Section 3.4 Package Manager pkg Usage" revised "Installing pkg" subsection
+- 2024.11.29
+  - Updated "Section 1.6 FreeBSD Development Plan": synced with upstream
+- 2024.11.27
+  - "Section 1.2 BSD and Philosopher George Berkeley" added "Berkeley and Einstein"
+- 2024.11.26
+  - "Section 19.2 Linux Fiasco and FreeBSD Fiasco" added "Typical Git Deficiencies"
+- 2024.11.22
+  - "Section 4.11 Themes and Customization" added "System Update Notification `freebsd-update-notify`"
+  - "Section 17.9 AList" added "Official Binary Package"
+  - Updated "Section 16.3 Node.js Related"
+- 2024.11.17
+  - "Section 4.2 Installing KDE 5" added "Disable Auto Lock Screen"
+- 2024.11.15
+  - "Section 4.2 Installing KDE 5" added "Login Screen Theme"
+- 2024.11.12
+  - "Section 3.4 Package Manager pkg Usage" added "How to Find Missing .so Files (for Linux Compatibility Layer)"
+  - "Section 21.13 Linux Compatibility Layer Troubleshooting and Configuration" updated "sysctl Variables (Based on FreeBSD 14.1)"
+- 2024.11.9
+  - Added a section: "Section 6.8 Auto-Mounting File Systems"
+  - Added a section: "Section 5.10 Installing WeChat (Linux Version) on FreeBSD"
+  - "Section 5.5 Installing Kingsoft WPS (Linux Version) on FreeBSD": added "Installing WPS via RockyLinux Compatibility Layer (FreeBSD Port)"
+- 2024.11.8
+  - "Section 1.1 UNIX, Unix-like, Linux and FreeBSD Introduction": supplemented "Relationship Between macOS/iOS and BSD"
+- 2024.11.7
+  - "Section 6.4 Mounting NTFS": created "Formatting" and mounting sections.
+  - Modified per "[Add new category fs for file systems](https://github.com/freebsd/freebsd-ports/pull/302)"
+- 2024.11.2
+  - "Section 19.2 Linux Fiasco and FreeBSD Fiasco" supplemented review questions
+  - Created "Section 19.3 Refuting 'Does Anyone Still Remember the BSD That Was Idealistic and Proud?'"
+  - "Section 17.6 NextCloud — Based on PostgreSQL" supplemented a section: "Mounting Samba Shares in Nextcloud"
+- 2024.11.1
+  - Created a new chapter: "Section 17.6 NextCloud — Based on PostgreSQL"; testing passed
+- 2024.10.30
+  - "Section 14.5 Ethernet NICs": corrected configuration file path
+  - Added "Section 0.5 MySQL Database"
+- 2024.10.29
+  - Split the original "Chapter 11: Updating and Upgrading FreeBSD" into Chapter 3; moved the original "Chapter 0: Introduction to Computing" to Chapter 11
+  - "Section 3.9 Updating FreeBSD with pkgbase" supplemented domestic mirror sites; tested NJU, 163, and USTC
+- 2024.10.28
+  - "Section 17.9 AList": service portion tested successfully
+- 2024.10.27
+  - USTC, 163, and NJU pkg-freebsd mirrors basically restored to normal
+  - Added a section: "Section 17.9 AList"
+  - "Section 4.16 Installing CDE" tested successfully
+- 2024.10.8
+  - Synced and updated "Section 1.5 Who Uses FreeBSD"
+  - Rewrote "Section 4.1 Installing Graphics Drivers and Xorg (Must Read)"
+- 2024.10.7
+  - USTC, 163, and NJU pkg-freebsd mirrors are down; feedback submitted
+  - Synced upstream: "Section 1.6 FreeBSD Development Plan"
+- 2024.10.5
+  - Added contributor "[dongdigua](https://github.com/dongdigua)"
+  - "Section 3.4 Package Manager pkg Usage": rewrote troubleshooting.
+  - Added a section: "Section 2.2 Installing FreeBSD — Based on Hyper-V"; original sections split into subsections.
+  - Split "References and Contributor List" into two independent subsections
+
+## Q3 2024
+
+- 2024.9.30
+  - "Section 2.0 Illustrated Installation" added "Wireless NIC / Wi-Fi Setup" subsection
+  - Adjusted Wi-Fi region codes throughout the text to `country CN regdomain NONE` as set in the FreeBSD reference configuration file
+  - Completely rewrote: "Section 14.2 Wi-Fi"
+- 2024.9.27
+  - Moved FreeBSD-related content from "Section 1.2 FreeBSD and Philosopher George Berkeley" to "Section 1.1 UNIX, Unix-like, Linux and FreeBSD Introduction"
+  - Rewrote "Section 1.2 BSD and Philosopher George Berkeley" and supplemented references
+  - Completely rewrote "Section 2.0 Illustrated Installation" based on FreeBSD-14.1-RELEASE
+- 2024.9.20
+  - "Section 3.5 Installing Software from Ports (Source Code)": rewrote ccache 3 and ccache 4 sections. Testing passed.
+  - Produced 14.1-RELEASE and 15.0-CURRENT virtual machine images
+  - Created a new section "Section 2.9 Pre-installed Virtual Machine Images"
+  - "Section 21.10 RockyLinux Compatibility Layer (FreeBSD Port)" tested successfully; moved QQ installation method to the QQ section.
+- 2024.9.19
+  - Added "Section 21.10 RockyLinux Compatibility Layer (FreeBSD Port)"
+  - "Section 6.2 ZFS" added "ZFS User-Level Management"
+- 2024.9.18
+  - "Section 3.5 Installing Software from Ports (Source Code)": tested and rewrote ccache and wget2 sections.
+- 2024.9.14
+  - Supplemented several SSH tools for Windows
+- 2024.9.13
+  - Supplemented test data for several storage cards and USB drives
+- 2024.9.9
+  - Took offline novel, poetry, and miscellaneous notes unrelated to FreeBSD
+- 2024.9.4
+  - Tested creating Chapter 0; accuracy to be verified
+  - Restored "Section 0.4 Operating Systems"
+  - "Section 26.1 Installation": synced to OpenBSD 7.5
+  - "Section 26.4 Desktop and Other Software": tested KDE5
+- 2024.9.3
+  - Merged the original Section 2.7 into Section 2.6
+- 2024.8.29
+  - "Section 19.1 Open Source and Suffering Philosophy": supplemented the "Long Gown" subsection based on v2ex
+  - "Section 1.4 Linux User Migration Guide": moved the "Comparison of Major GNU/Linux Distributions" subsection to "Section 19.2 Linux Fiasco and FreeBSD Fiasco" because this content is not very helpful for FreeBSD beginners and may cause many misunderstandings
+- 2024.8.25
+  - "Section 18.10 Introduction to Storage Card Parameters and Testing": added "Any microSD Storage Card Exceeding 104 MB/s is Meaningless" subsection
+- 2024.8.22
+  - Split "Chapter 18: Raspberry Pi and RISC-V"; added "Section 18.10 Introduction to Storage Card Parameters and Testing", "Section 18.11 Bus Interfaces and Protocols", and "Section 18.12 Heatsinks, Fans, Blowers"
+- 2024.8.21
+  - "Section 18.1 Introduction to Raspberry Pi and Accessory Selection" added a subsection "How to Test Storage Cards and Hard Drives?"
+- 2024.8.19
+  - "Section 1.3 Why Use FreeBSD": supplemented "A One-Sentence Reason for Choosing FreeBSD — FreeBSD Can Seek the Ideal Middle Path in an Ever-Changing World"
+  - "Section 1.5 Linux User Migration Guide": supplemented examples to make it generally more objective
+  - Removed the original "Section 1.4 Introduction to Other BSDs" because it duplicates later chapters
+- 2024.8.17
+  - "Section 1.5 Linux User Migration Guide": supplemented external links, references, commands, etc. to make it generally more objective
+  - "Section 1.1 UNIX, Unix-like, Linux Introduction": supplemented external links
+  - Restored code highlighting throughout the text
+  - Added a simple example of pkg and ports usage to the editorial notes section
+- 2024.8.15
+  - Completely rewrote "Section 24.1 BSD INIT Managing Services"
+  - "Section 1.2 FreeBSD Brief History": rewrote "BSD and Philosopher George Berkeley" subsection
+- 2024.8.14
+  - Supplemented port methods for all pkg packages throughout the text to prevent people from forgetting Ports, and to facilitate users who need Ports
+  - Removed the original Section 7.5 because it had no substantive content
+- 2024.8.11
+  - Removed the original Section 2.7 Manual FreeBSD Installation because it duplicated the original Section 2.1 Dual-Boot Installation
+  - Section 1.2 FreeBSD Brief History: re-proofread the "Timeline"
+- 2024.8.10
+  - "Section 4.12 Remote Desktop Management": added a section, VNC vs. RDP (XRDP) Comparison. Completely rewritten overall. Added a subsection "Using Android to Remotely Access FreeBSD via XRDP"; added a subsection "RustDesk Relay Server"
+  - Chapter 16 Servers: basically removed all subsections without substantive content
+- 2024.8.9
+  - "Section 18": supplemented information about expansion cards, falsely labeled cards, etc.
+- 2024.8.7
+  - Streamlined and compressed Chapters 3, 10, 11, 12, 14, and 17; removed redundancies
+  - Basically removed all chapters without substantive content throughout the book
+  - "Section 2.9 SSH-Related Software Recommendations and SSH Configuration": added argumentation for PuTTY's typical deficiencies; added a new section — "mosh: Mobile Shell". Completely rewrote a section: "WinSCP Download"
+- 2024.8.6
+  - "Section 18.1 Introduction to Raspberry Pi": completely rewritten
+  - Removed broken links related to the compatibility layer
+  - "Section 18.9 Raspberry Pi 5": added a section covering HAT+, bus, interfaces and protocols, heatsinks, fans, etc.
+  - Streamlined and compressed Chapters 1, 12, 14, 19, 20, and 25; removed redundancies
+- 2024.8.5
+  - "Section 11.3 Updating from Source Code": moved "Git Proxy Settings" here. Supplemented information about "nvi". Overall layout optimized
+  - "Section 1.6 UNIX Philosophy": removed unreliable and unsubstantiated content and references
+    - For reliability considerations, this book in principle prohibits citing "Ruan Yifeng (<https://www.ruanyifeng.com/>)" related content as references
+  - "Section 18.2 System Installation": overall layout optimized; added storage card selection tips and SD card standard analysis
+- 2024.8.1
+  - "Section 2.4 Installing FreeBSD — Based on VMware Workstation Pro": added Broadcom registration, login, and download process
+
+---
+
+- 2021.11.19-2024.7.31
+  - "FreeBSD: From Beginner to Running Away" first edition completed (version-1 branch)
+
+---
+
+- 2024.7.9
+  - "Section 2.11 Sound Card and Network Card Setup" added "Realtek (Crab Card)"
+- 2024.7.6
+  - ykla returned
+  - Updated "Section 2.14 FreeBSD Hardware Selection"
+
+## Q2 2024
+
+- 2024.6.2
+  - "Section 20.1 Games" added "Godot Games"
+- 2024.6.1
+  - Updated compatibility layer-related tutorials
+  - "Section 5.7 Installing QQ" supplemented several troubleshooting items
+- 2024.5.5
+  - Introduced multiple GitHub Actions: primarily for Markdown formatting
+- 2024.5.3
+  - "Contribution Guide" added "How to Clone This Project with git"
+
+## Q1 2024
+
+- 2024.2.24
+  - "Section 20.2 Audio/Video Players" added "Playing DSD with MPD"
+
+## Q4 2023
+
+- 2023.12.28
+  - Added "Section 2.1 Dual-Boot Installation"
+- 2023.12.3
+  - This project is paused; ykla temporarily abandons maintenance
+- 2023.12.2
+  - "Section 4.5 Installing Xfce" added "Software Recommendations"
+- 2023.11.27
+  - "Section 18.8 Installing OpenBSD on RISC-V Development Boards": added serial boot output information
+  - "Section 23.4 Boot Screen" supplemented the method for simplifying FreeBSD boot output
+- 2023.11.26
+  - Added "Section 18.8 Installing OpenBSD on RISC-V Development Boards"
+  - Formatted "Section 22.12 Installing code-server and clangd"
+- 2023.11.23
+  - Added "Section 4.9 Installing bspwm"
+- 2023.11.19
+  - "Section 6.2 ZFS" added "FreeBSD on ZFS zpool Upgrade"
+- 2023.11.18
+  - Rewrote "Section 22.12 Installing code-server and clangd"
+- 2023.11.15
+  - Added "Section 4.8 Installing LXQt"
+- 2023.11.5
+  - Supplemented "Section 22.12 Installing code-server and clangd"
+- 2023.10.14
+  - Supplemented "Section 22.12 Installing code-server and clangd"
+- 2023.10.13
+  - Supplemented "Section 22.12 Installing code-server and clangd"
+- 2023.10.12
+  - Moved "lightdm Login Manager Localization Language" from "Section 4.2 Installing KDE 5" to "Section 4.5 Installing Xfce"
+  - "Section 4.2 Installing KDE 5" added "SDDM Chinese Localization"
+
+## Q3 2023
+
+- 2023.9.21
+  - "Section 6.2 ZFS" added "Cloning a Boot Environment"
+- 2023.9.20
+  - "Section 26.4 Desktop and Other Software" OpenBSD added "KDE 5"; pending testing
+  - "Section 26.4 Desktop and Other Software" added OpenBSD shutdown method
+  - Reviewed the validity and authenticity of all references in the book and unified their format
+- 2023.9.18
+  - Added "Section 18.7 Raspberry Pi and OpenBSD"
+- 2023.9.7
+  - Supplemented "Section 8.1 sudo"
+- 2023.9.5
+  - "Section 30.13 Linux Compatibility Layer and Applications" added "sysctl Variables" description
+- 2023.9.4
+  - Supplemented "Section 29.5 Installing Hyprland"
+- 2023.9.3
+  - "Section 29.5 Installing Hyprland" added images
+- 2023.9.1
+  - Code highlighting throughout the book
+- 2023.8.31
+  - Substantively added "Section 29.5 Installing Hyprland"
+  - Tested code highlighting throughout the book
+- 2023.8.30
+  - Merged Chapter 0 after Chapter 1 to facilitate PDF export
+- 2023.8.28
+  - Supplemented "Section 7.1 HTTP Proxy"; added "HTTP_PROXY Proxy"
+  - "Section 11.2 Updating from Source Code" added troubleshooting
+- 2023.8.27
+  - Updated "Section 1.7 Introduction to Other BSDs"
+- 2023.8.26
+  - Supplemented "Section 26.5 Desktop and Other Software"
+  - Verified input method issues in the compatibility layer
+- 2023.8.25
+  - "Section 30.3 Linux Compatibility Layer — Based on Ubuntu/Debian" added Debian 12 (bookworm) compatibility layer script
+  - Updated all installation images in the book to FreeBSD 14.0-RELEASE
+- 2023.8.20
+  - "Section 2.9 Touchpad Settings" added "Disabling the Touchpad"
+  - Supplemented all compatibility layer-related chapters in the book
+- 2023.8.18
+  - "Section 30.1 Linux Compatibility Layer Implementation" supplemented "Digression — Why Using the Linux Compatibility Layer is Not Suffering Philosophy?"
+  - Marked copyright or issued warnings for sections with unknown sources
+- 2023.8.17
+  - Added "Section 0.9 Who Uses FreeBSD"
+  - Added "Section 0.10 FreeBSD Chinese Community Article Translation Table"
+- 2023.8.16
+  - Added "Section 0.8 FreeBSD Sub-Projects"
+- 2023.8.13
+  - Supplemented "Section 9.4 Jail Updates"
+  - Supplemented "Section 9.3 Jail Configuration"
+  - "Section 4.2 Installing KDE 5" supplemented "lightdm Login Manager Localization Language"
+- 2023.8.12
+  - Supplemented and reviewed "Section 3.5 Installing Software from Ports (Source Code)"
+  - Added "Section 18.5 Raspberry Pi and Linux Compatibility Layer"
+  - "Section 30.11 Linux Compatibility Layer — Based on Deepin" added "Running Software Directly from the FreeBSD Command Line"
+  - "Section 23.4 Boot Screen" added "Simplified Boot Output"
+- 2023.8.8
+  - "Section 18.3 Usage Configuration" added "htop", "Show Temperature", "View CPU Frequency"
+- 2023.8.7
+  - Added "Section 0.8 FreeBSD Chinese Community Article Translation Table"
+  - "Section 17.4 MySQL 5.X": supplemented the method for installing older MySQL software via ports
+- 2023.8.4
+  - "Section 18.2 System Installation" supplemented kernel user-space compilation, etc.
+  - Substantively filled "Section 11.2 Updating from Source Code"
+- 2023.8.3
+  - Added "Section 1.7 FreeBSD Security Advisories"
+  - Supplemented "Section 3.5 Installing Software from Ports (Source Code)"
+- 2023.8.1
+  - Added "Section 11.4 Updating with pkgbase"
+  - Supplemented "Section 18.2 System Installation"
+- 2023.7.31
+  - "Section 27.3 Desktop and Other Software" added "Xfce" and "Mate"
+- 2023.7.30
+  - "Section 18.2 System Installation" added "Workaround: FreeBSD and Raspberry Pi 4B 8G Boot Failure Issue"
+- 2023.7.28
+  - Added "Section 19.18 Subject Privacy Rights and Freedom of Choice in Network Security Discussion — Network Security and Corporate Ethics"
+  - Added "Section 17.9 Telegraf+InfluxDB+Grafana Monitoring Platform"
+- 2023.7.27
+  - Added "Section 19.17 Miscellaneous Notes"
+- 2023.7.26
+  - Added NetBSD "Section 27.1 Installation and Configuration"
+  - Added NetBSD "Section 27.2 Switching Software Mirrors and Package Manager"
+- 2023.7.22
+  - Supplemented OpenBSD "Section 26.1 Installation"; updated to OpenBSD 7.3
+- 2023.7.21
+  - Added "Section 16.15 MinIO Object Storage Service"
+  - Added "Section 30.11 Linux Compatibility Layer — Based on Deepin"
+- 2023.7.12
+  - Added "Section 30.7 Linux Compatibility Layer — Based on Gentoo Linux"
+- 2023.7.11
+  - Added "Section 30.10 Android Compatibility Layer"
+  - Added "Section 30.7 Linux Compatibility Layer — Based on Gentoo Linux"
+  - Added "Section 30.8 Linux Compatibility Layer — Based on Rocky Linux"
+  - Added "Section 30.9 Linux Compatibility Layer — Based on Slackware Linux"
+- 2023.7.9
+  - Submitted to openSUSE [Bug 1213157 - repo http://download.opensuse.org/update/leap/15.5/oss : metadata expired](https://bugzilla.opensuse.org/show_bug.cgi?id=1213157) zypper keeps showing this warning; unclear how to dismiss it. Updating and switching mirrors doesn't help. dnf displays normally. But it doesn't affect normal usage.
+- 2023.7.8
+  - Added "Section 30.6 Linux Compatibility Layer — Based on openSUSE"
+- 2023.7.7
+  - Added video tutorial [07-FreeBSD-ArchLinux Compatibility Layer Script Usage Instructions](https://www.bilibili.com/video/BV1wg4y1w7QV/)
+  - Added video tutorial [06-FreeBSD-Ubuntu Compatibility Layer Script Usage Instructions](https://www.bilibili.com/video/BV1iM4y1j7E9/)
+- 2023.7.5
+  - Merged all Fcitx-related tutorials in the book into "Section 5.1 Fcitx Input Method Framework" to reduce duplication
+  - Merged all IBus-related tutorials in the book into "Section 5.2 IBus Input Method Framework" to reduce duplication
+  - "Section 5.5 Installing Kingsoft WPS" removed references to WPS in Ports. Because it is unmaintained.
+- 2023.7.4
+  - "Section 1.9 References and Contributor List" added several references
+  - "Section 1.9 References and Contributor List" removed Bird's Linux Private Kitchen. Not suitable as a FreeBSD reference
+  - "Section 1.9 References and Contributor List": added covers to all reference books
+
+## Q2 2023
+
+- 2023.6.24
+  - Added "Section 5.0 Input Methods and Environment Variables"
+- 2023.6.19
+  - "Section 1.4 FreeBSD and Other Operating Systems" added "Timeline"
+- 2023.6.18
+  - Added "Section 19.15 Where is My Home"
+- 2023.6.16
+  - Added "Section 30.5 Linux Compatibility Layer — Based on archlinux-pacman"
+- 2023.6.15
+  - Added empty file "Section 30.5 Linux Compatibility Layer — Based on archlinux-pacman"
+  - Rewrote "Section 22.12 Installing code-server and clangd"
+- 2023.6.14
+  - Added "Section 19.9 So-Called Open Source Philosophy"
+  - Added "Section 19.10 Rabbit"
+  - Added "Section 19.11 Seeking the Way"
+  - Added "Section 19.12 Selected Poems"
+  - Added "Section 19.13 Brief Discussion on Daoist Style"
+  - Added "Section 19.14 Novel — You and the Dark"
+  - "Section 30.3 Linux Compatibility Layer — Based on Ubuntu/Debian" added Shell installation script
+  - "Section 30.4 Linux Compatibility Layer — Based on ArchLinux" added Shell installation script
+- 2023.6.12
+  - freebsd.cn mirror site permanently retired. Removed all references and links to it from the tutorials
+- 2023.6.10
+  - TCBSD "Section 31.2 System Installation and Basic Configuration" added virtual machine installation method with illustrated instructions
+  - Added TCBSD "Section 31.3 Development Environment Configuration"
+- 2023.5.26
+  - Updated "Section 22.12 Installing code-server and clangd"
+- 2023.5.24
+  - Rewrote "Section 22.12 Installing code-server and clangd"
+  - portsnap is deprecated. Removed all references and links to it from the tutorials
+- 2023.5.23
+  - Added "Section 22.12 Installing code-server and clangd"
+- 2023.5.21
+  - Updated "Section 22.7 Python and VS Code"
+- 2023.5.3
+  - Introduced GitHub Actions: link checking, Markdown formatting
+- 2023.4.27
+  - Per safreya's reminder, KDE no longer requires procfs; removed all references and links to it from the tutorials
+- 2023.4.15
+  - Per safreya's reminder, removed the non-existent service item `gnome_enable="YES"`. Also submitted a PR to the FreeBSD Handbook: [The gnome service does not exist](https://reviews.freebsd.org/D39580)
+  - "Section 4.8 Root Desktop Login" supplemented "GDM (GNOME Display Manager)"
+- 2023.4.13
+  - Updated "Section 11.1 Updating via freebsd-update"
+
+## Q1 2023
+
+- 2023.3.28
+  - "Section 5.7 Installing QQ": removed "Linux QQ 2.x (GTK 2.0)"; deprecated
+  - "Section 5.7 Installing QQ": updated related tutorials to the new QQ version
+- 2023.3.24
+  - Do not select `local_unbound`; it will affect DNS. See [https://bugs.freebsd.org/bugzilla/show\_bug.cgi?id=262290](https://bugs.freebsd.org/bugzilla/show\_bug.cgi?id=262290).
+- 2023.3.22
+  - "Section 23.1 Recovery Mode and Password Reset": rewrote ZFS mounting
+- 2023.3.10
+  - Rewrote "Section 3.6 Installing Software via DVD"
+- 2023.3.1
+  - "Section 24.5 Automatically Generating BSD libc Library Text with Scripts" added "Improved Solution"
+- 2023.2.21
+  - Added "Section 30.1 Linux Compatibility Layer Implementation"
+  - Added "Section 30.3 Linux Compatibility Layer — Based on Ubuntu/Debian"
+  - Added "Section 30.4 Linux Compatibility Layer — Based on ArchLinux"
+  - Added "Section 30.5 Advanced Tutorial: Linux Compatibility Layer and Jails"
+- 2023.2.8
+  - "Section 14.2 Wi-Fi" added "Broadcom NIC Drivers"
+- 2023.1.24
+  - Substantively filled "Section 22.3 How to Participate in FreeBSD Collaboration"
+- 2023.1.13
+  - OpenBSD "Section 26.2 Configuration" added "Mounting Android Devices"
+  - Introduced "xdg-user-dirs" in appropriate places to automatically create home directory paths
+- 2023.1.11
+  - Added video: [Installing DragonFly BSD 6.4](https://www.bilibili.com/video/BV1BM41187pD/)
+- 2023.1.9
+  - "Section 5.7 Installing QQ" added "Linux QQ 3.x (electron) [Optional: Based on ArchLinux Compatibility Layer]"
+- 2023.1.8
+  - Added "Section 9.6 Managing Jails with qjail"
+  - "Section 5.5 Linux Compatibility Layer" added "Gentoo Linux Compatibility Layer"
+- 2023.1.7
+  - "Section 5.5 Linux Compatibility Layer" added "Installing Windows 11 Fonts [Optional. Self-made package, compatible with both lower Ubuntu versions]"
+- 2023.1.5
+  - "Section 5.5 Linux Compatibility Layer" added "ArchLinux Compatibility Layer"
+- 2023.1.4
+  - Substantively filled "Section 22.4 C/C++ Environment Configuration"
+
+## Q4 2022
+
+- 2022.12.31
+  - Implemented PDF document export
+  - Substantively filled "Section 22.6 Qt Environment Configuration"
+- 2022.12.30
+  - "Section 5.7 Installing QQ" added "Linux QQ 3.x (electron)"
+  - "Section 5.5 Linux Compatibility Layer" added troubleshooting for "Missing .so Files"
+- 2022.12.7
+  - "Section 11.1 Updating via freebsd-update" added "Viewing FreeBSD Version"
+- 2022.11.24
+  - Added "Contribution Guide"
+  - Added "CoC"
+- 2022.11.11
+  - "Section 1 Fcitx Input Method Framework" added installation method for KDE5
+- 2022.11.6
+  - Added GitHub Action: Markdown link checking
+- 2022.10.28
+  - Substantively tested "Section 5 Installing Windows 11 with bhyve"
+- 2022.10.21
+  - Removed Beijing Jiaotong University Open Source Mirror from the entire book. Unavailable.
+- 2022.10.15
+  - Added "Section 5 Installing Windows 11 with bhyve"
+- 2022.10.12
+  - Added "Section 0 How to Subscribe to FreeBSD Mailing Lists"
+- 2022.10.6
+  - Substantively filled "Section 2 Installing CDE"
+
+## Q3 2022
+
+- 2022.9.20
+  - Added Raspberry Pi "Section 3 Usage Configuration"
+  - Added "Section 3 Installing Awesome"
+  - Added "Section 3 PHP 8.X"
+
+## Q2 2022
+
+- 2022.6.23
+  - Added "Section 7 Novel — FreeBSD: From Beginner to Running Away"
+  - Rewrote "Section 9 References and Contributor List"
+- 2022.6.21
+  - Rewrote "Section 3 FreeBSD's Shortcomings"
+- 2022.6.17
+  - "Section 2 ZFS" added ZFS Snapshots
+- 2022.6.16
+  - Substantively filled "Section 8 Remote Desktop Management" — "XRDP"
+- 2022.6.13
+  - Deployed the website to <https://book.bsdcn.org>
+- 2022.6.9
+  - Substantively filled "Section 13 WildFly"
+- 2022.6.3
+  - Substantively filled "Section 2 V2Ray"
+- 2022.5.27
+  - "Section 1 Comparison of Three Virtual Machines and FreeBSD Versions" added Alibaba Cloud-related troubleshooting
+  - Supplemented "Bibliography"
+- 2022.5.26
+  - Supplemented "Section 1 What is UNIX"
+  - Supplemented "Section 3 What is Linux"
+- 2022.5.21
+  - Rewrote "Section 4 FreeBSD and Other Operating Systems"
+- 2022.5.20
+  - "Section 2 Configuration" supplemented OpenBSD
+- 2022.5.3
+  - Substantively filled "Section 1 Installing i3wm"
+  - Supplemented "Section 8 Rust/Go Environment Configuration"
+- 2022.4.1
+  - Supplemented "Section 7 Common Software and SSH Configuration"
+
+## Q1 2022
+
+- 2022.3.28
+  - Rewrote "Section 1 FTP Server"
+- 2022.3.25
+  - Substantively filled "Section 3 FreeBSD's Shortcomings"
+  - "Section 8 Physical Machine Installation and Hardware Selection" added "NIC Recommendations"
+- 2022.3.22
+  - Substantively filled "Section 1 FTP Server"
+- 2022.3.21
+  - Rewrote "Section 3 Installing GNOME"
+  - Supplemented "Section 2 Wi-Fi"
+  - Supplemented "Section 9 Physical Machine Graphics Driver Configuration"
+- 2022.3.19
+  - Added "Section 3 Node.js Related"
+- 2022.3.4
+  - Supplemented "Section 3 Installing GNOME"
+  - Substantively filled "Section 13 Wireless Bluetooth Mouse Settings"
+- 2022.3.3
+  - Supplemented FreeBSD "Chapter 0 Illustrated Installation"
+- 2022.3.2
+  - Supplemented "Section 3 FreeBSD 13.0 Installation — Based on VMware Workstation Pro 16"
+- 2022.2.9
+  - Substantively filled "Section 1 FTP Server"
+- 2022.2.5
+  - Supplemented "Section 2 FreeBSD Software Mirror Switching Method"
+- 2022.1.28
+  - "Section 1 Comparison of Three Virtual Machines and FreeBSD Versions" added "Hyper-V"
+- 2022.1.24
+  - "Section 3 Installing GNOME 3" added input method
+- 2022.1.21
+  - Substantively filled "Section 7 Python and VS Code"
+- 2022.1.7
+  - Rewrote "Section 6 Root Desktop Login"
+  - Rewrote "Section 4 Installing Mate Desktop"
+  - Rewrote "Section 5 Installing Xfce"
+  - Supplemented "Section 1 Fcitx Input Method Framework"
+  - Supplemented "Section 6 Physical Machine Installation and Hardware Selection"
+- 2022.1.4
+  - Supplemented "Section 9 Sound Card and Network Card Settings"
+
+## Q4 2021
+
+- 2021.12.31
+  - Supplemented "Section 2 FreeBSD 13.0 Installation — Based on VirtualBox" networking-related content
+  - Supplemented "Comparison of Two Virtual Machines and FreeBSD Versions"
+- 2021.12.30
+  - Supplemented "Section 3 FreeBSD 13.0 Installation — Based on VMware Workstation Pro 15"
+- 2021.12.21
+  - "Section 8 Linux User Migration Guide" added "Command Comparison"
+- 2021.12.18
+  - Substantively filled "Section 7 Installing QQ"
+  - Substantively supplemented "Section 2 FreeBSD Software Mirror Switching Method"
+  - Substantively supplemented "Section 2 Nginx"
+  - Added "Section 8 PostgreSQL and pgAdmin4"
+- 2021.12.15
+  - Substantively filled "Section 7 Samba Server"
+  - Substantively filled OpenBSD "Section 1 Installation"
+  - Substantively filled OpenBSD "Section 2 Configuration"
+  - Substantively filled OpenBSD "Section 3 Switching Software Mirrors"
+  - Substantively filled OpenBSD "Section 5 Desktop and Other Software"
+- 2021.12.14
+  - Substantively filled DragonFly BSD "Section 0 Overview"
+- 2021.12.13
+  - Substantively filled "Section 1 Recovery Mode and Password Reset"
+  - Substantively filled "Section 4 ee Usage and Network Configuration"
+- 2021.12.12
+  - Rewrote "Section 3 Disk Expansion"
+  - Substantively filled "Section 4 Installing Firefox and Chromium"
+  - Substantively added FreeBSD "Chapter 0 Illustrated Installation"
+  - Substantively filled "Section 8 PostgreSQL"
+  - Substantively filled "Section 5 MySQL 8.X"
+  - Substantively filled "Section 4 MySQL 5.X"
+  - Substantively filled "Section 1 Apache"
+- 2021.12.9
+  - Added "Section 5 Operating Systems"
+- 2021.12.8
+  - Substantively supplemented "Section 1 Games"
+- 2021.12.6
+  - Substantively supplemented "Section 6 Ext 2/3/4 File Systems"
+- 2021.12.3
+  - "Section 8 Rust/Go Environment Configuration" added "Golang Official Packaging (Not Recommended)"
+- 2021.12.1
+  - Substantively supplemented "Section 10 Compression and Decompression"
+- 2021.11.27
+  - Substantively supplemented "Section 4 Education"
+- 2021.11.26
+  - Substantively supplemented "Section 5 Scientific and Professional Tools"
+  - Substantively supplemented "Section 8 Rust Environment Configuration"
+- 2021.11.20
+  - Substantively supplemented "Section 7 Themes and Customization"
+  - Rewrote "Section 4 Installing Mate Desktop"
+  - Introduced numerous articles
+- 2021.11.19
+  - First commit; added license and README.md files
+
+## Q3 2021
+
+The "FreeBSD: From Beginner to Running Away" project continues to iterate.
+
+## Q2 2021
+
+The "FreeBSD: From Beginner to Running Away" project was updated at [clean-master/freebsdcn](https://github.com/clean-master/freebsdcn).
+
+## Q1 2021
+
+- 2021.3.15
+  - ykla completed the initial organization and publication of the tutorial in the early hours of the next day; since then, the primary maintainer has always been ykla
+- 2021.3.14
+  - "FreeBSD: From Beginner to Running Away" originated on March 14, 2021 (based on analysis of the [clean-master/freebsdcn](https://github.com/clean-master/freebsdcn/graphs/contributors) project creation time), initiated by the FreeBSD Chinese community's [clean-master](https://github.com/clean-master)
+
+## Q4 2020
+
+- 2020.12.31
+  - The prototype of "FreeBSD: From Beginner to Running Away" can be traced back to the post "Introduction to the Art, Science, and Philosophy of FreeBSD" published by ykla on December 31, 2020
