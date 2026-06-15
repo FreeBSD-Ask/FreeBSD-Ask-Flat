@@ -1,4 +1,4 @@
-# 1.4 What is FreeBSD
+# 1.4 What Is FreeBSD
 
 > A bunch of PC hackers sat down and tried to write a Unix system for the PC, and the result was Linux.
 >

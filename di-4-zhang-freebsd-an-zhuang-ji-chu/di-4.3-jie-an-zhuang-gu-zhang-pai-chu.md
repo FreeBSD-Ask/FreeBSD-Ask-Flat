@@ -21,7 +21,7 @@ If it is a physical machine, check the following items in order:
   - Please confirm it is `amd64` (for standard x86 personal computers) **not** `arm64` (for ARM architecture devices, such as Raspberry Pi and other embedded platforms).
 - Is the USB flash drive an expanded-capacity drive (a counterfeit capacity product)?
 - Was the Ventoy tool used?
-  - If using Ventoy - Multi-boot USB boot drive creation tool <https://www.ventoy.net/cn/index.html> fails to boot, try using Rufus - Create bootable USB drives the easy way <https://rufus.ie/zh/> to burn the image instead.
+  - If using Ventoy - Multi-boot USB boot drive creation tool <https://www.ventoy.net/en/index.html> fails to boot, try using Rufus - Create bootable USB drives the easy way <https://rufus.ie/> to burn the image instead.
 
 If problems persist, please first ask a question in English on the FreeBSD official forum <https://forums.freebsd.org/>; if no answer is received, follow the guidelines in other chapters to submit a bug.
 

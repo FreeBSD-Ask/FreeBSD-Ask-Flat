@@ -1,4 +1,4 @@
-# 4.4 Restoring a USB Boot Drive to a Normal Storage Device in Windows
+# 4.4 Restoring a USB Boot Drive in Windows
 
 After a USB storage device has been used as a system installation medium, its partition table structure may change, causing the operating system to be unable to fully recognize its available storage space.
 

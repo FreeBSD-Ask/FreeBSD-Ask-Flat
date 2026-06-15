@@ -1,4 +1,4 @@
-# 6.4 Command Line Basics
+# 6.4 Command-Line Basics
 
 The Command Line Interface (CLI) is the primary interaction method for UNIX-like systems, providing a direct way to operate the system.
 

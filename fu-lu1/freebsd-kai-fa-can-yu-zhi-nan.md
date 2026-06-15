@@ -1,4 +1,4 @@
-# FreeBSD Development Participation Guide
+# Contributing to FreeBSD Development
 
 ## Method Overview
 

@@ -1,4 +1,4 @@
-# Editor's Log
+# Changelog
 
 ## Q2 2026
 

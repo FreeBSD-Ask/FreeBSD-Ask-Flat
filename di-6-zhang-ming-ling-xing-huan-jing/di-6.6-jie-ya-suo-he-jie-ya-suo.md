@@ -1,4 +1,4 @@
-# 6.6 Compression and Decompression
+# 6.6 Compression and Archiving
 
 Compression and decompression tools are fundamental tools in computer file management. Data compression exploits the statistical redundancy of information to reduce the storage space required for data representation through encoding algorithms. Depending on whether information loss is permitted, compression algorithms can be divided into two major categories: lossless compression and lossy compression. The tools covered in this section all employ lossless compression algorithms, meaning the decompressed data is identical to the original data.
 

@@ -2,7 +2,7 @@
 
 ## NVIDIA Graphics Driver Overview
 
-For desktop computers, if the CPU is an Intel processor with a model number ending in F (such as [i5-9400F](https://www.intel.cn/content/www/cn/zh/products/sku/190883/intel-core-i59400f-processor-9m-cache-up-to-4-10-ghz/specifications.html)) or KF (such as [i5-12600KF](https://www.intel.cn/content/www/cn/zh/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html)), then that model has no integrated graphics, and there is no need to handle integrated graphics-related configuration.
+For desktop computers, if the CPU is an Intel processor with a model number ending in F (such as [i5-9400F](https://www.intel.com/content/www/us/en/products/sku/190883/intel-core-i59400f-processor-9m-cache-up-to-4-10-ghz/specifications.html)) or KF (such as [i5-12600KF](https://www.intel.com/content/www/us/en/products/sku/134590/intel-core-i512600kf-processor-20m-cache-up-to-4-90-ghz/specifications.html)), then that model has no integrated graphics, and there is no need to handle integrated graphics-related configuration.
 
 If you already have a discrete graphics card and the video output interface (DP or HDMI) is directly connected to the discrete graphics card, you typically do not need to configure the integrated graphics; just handle the discrete graphics driver.
 
@@ -163,7 +163,7 @@ However, running `freebsd-update` or patching/updating the system via PkgBase ma
 
 ## References
 
-- Intel Corporation. A brief guide about our latest processors and naming updates[EB/OL]. [2026-03-25]. <https://www.intel.cn/content/www/cn/zh/processors/processor-numbers.html>. Intel's official CPU naming rules and model identification guide.
+- Intel Corporation. A brief guide about our latest processors and naming updates[EB/OL]. [2026-03-25]. <https://www.intel.com/content/www/us/en/processors/processor-numbers.html>. Intel's official CPU naming rules and model identification guide.
 - NVIDIA Corporation. NVIDIA Driver Documentation[EB/OL]. [2026-03-25]. <https://www.nvidia.com/Download/index.aspx>. NVIDIA's official driver download and technical documentation.
 
 ## Exercises

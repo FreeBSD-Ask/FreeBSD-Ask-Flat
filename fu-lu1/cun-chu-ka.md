@@ -122,9 +122,9 @@ The metal version.
 
 ## References
 
-- Kingston Technology. SD Card and microSD Card Type Guide[EB/OL]. [2026-03-25]. <https://www.kingston.com/cn/blog/personal-storage/microsd-sd-memory-card-guide>. Introduces the specification categories and applicable scenarios of various SD cards.
-- Kingston Technology. SD Card and microSD Card Speed Class Guide[EB/OL]. [2026-03-25]. <https://www.kingston.com/cn/blog/personal-storage/memory-card-speed-classes>. Explains the meaning of speed class labels and purchasing guidance.
-- Kingston Technology. Understanding SD Card and microSD Card Naming Conventions and Labels[EB/OL]. [2026-03-25]. <https://www.kingston.com/cn/blog/personal-storage/microsd-sd-memory-card-naming-conventions>. Explains the performance parameters represented by each field in storage card product labels.
+- Kingston Technology. SD Card and microSD Card Type Guide[EB/OL]. [2026-03-25]. <https://www.kingston.com/en/blog/personal-storage/microsd-sd-memory-card-guide>. Introduces the specification categories and applicable scenarios of various SD cards.
+- Kingston Technology. SD Card and microSD Card Speed Class Guide[EB/OL]. [2026-03-25]. <https://www.kingston.com/en/blog/personal-storage/memory-card-speed-classes>. Explains the meaning of speed class labels and purchasing guidance.
+- Kingston Technology. Understanding SD Card and microSD Card Naming Conventions and Labels[EB/OL]. [2026-03-25]. <https://www.kingston.com/en/blog/personal-storage/microsd-sd-memory-card-naming-conventions>. Explains the performance parameters represented by each field in storage card product labels.
 - odinkuo. Archaeological question in computer fundamentals: what does the multiplier in optical drive speeds refer to[EB/OL]. [2026-03-25]. <https://www.mobile01.com/topicdetail.php?f=300&t=2126605&p=3>. Explains the optical drive speed multiplier concept and its conversion to the original CD transfer rate.
 - RC丸钢. MOVE SPEED 64 GB TF (MicroSD) Storage Card Test[EB/OL]. [2026-03-25]. <https://www.bilibili.com/read/mobile?id=21681916>. Actual read/write speed testing and evaluation of the MOVE SPEED brand TF card.
 - SilentNocturne. This MOVE SPEED card has exaggerated specs; the speed is only half of what's labeled[EB/OL]. [2026-03-25]. <https://post.smzdm.com/talk/p/az6o8zkr/>. Points out that the MOVE SPEED storage card's measured speed significantly differs from stated values.

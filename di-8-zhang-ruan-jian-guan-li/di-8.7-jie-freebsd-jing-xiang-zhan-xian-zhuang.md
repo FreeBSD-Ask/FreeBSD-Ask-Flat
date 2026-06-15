@@ -1,4 +1,4 @@
-# 8.7 Current Status of FreeBSD Mirror Sites
+# 8.7 FreeBSD Mirror Site Status
 
 The FreeBSD official rsync service is not open to the public, and the project does not accept applications for official secondary mirrors. This section outlines the policy constraints, historical evolution, and community practice solutions regarding mirror site deployment, providing background reference for readers interested in participating in mirror construction.
 
