@@ -20,13 +20,13 @@ This book is an open-source research work about the FreeBSD operating system.
 
 ## About the Authors
 
-This book is co-authored by multiple members of the Chinese FreeBSD Community.
+This book is co-authored by multiple members of the Chinese FreeBSD Community (CFC).
 
 ![WeChat Official Account](.gitbook/assets/wechatnew.png)
 
 WeChat Official Account: bsdcn2018
 
-- The primary contact for the Chinese FreeBSD Community is the QQ group: [787969044](https://qm.qq.com/q/cX5mpJ36gg)
+- The primary contact for the Chinese FreeBSD Community (CFC) is the QQ group: [787969044](https://qm.qq.com/q/cX5mpJ36gg)
 
 ![Chinese FreeBSD Community QQ Group](.gitbook/assets/2025-qq.png)
 
