@@ -151,19 +151,6 @@ Compared to last month: +107,800 characters (+12.82%)
 
 <!-- CHINESE_CHAR_COUNT_END -->
 
-<!-- commit-progress-start -->
-**3rd Edition Compilation Progress:**   (Manual commits: 1603 / 3533)
-
-![Progress badge](.gitbook/assets/progress.svg)
-
-Commits remaining for the 3rd edition: 1930
-
-Commit statistics (historical):
-
-- Manual commits: 8669
-- Bot commits: 367
-<!-- commit-progress-end -->
-
 ## ⭐ History
 
 ![⭐ History](https://api.star-history.com/image?repos=FreeBSD-Ask/FreeBSD-Ask&type=date&legend=top-left)

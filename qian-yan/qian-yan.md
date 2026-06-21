@@ -1,6 +1,6 @@
 # Preface
 
-## Third Edition Preface: Only After a Great Awakening Do We Know This Was a Great Dream (Draft)
+## Third Edition Preface: Only After a Great Awakening Do We Know This Was a Great Dream
 
 ### The First Dream
 

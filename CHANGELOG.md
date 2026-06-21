@@ -2,6 +2,12 @@
 
 ## Q2 2026
 
+---
+
+- 2025.4.21-2026.6.22
+  - "FreeBSD Ask" third edition completed (TAG 2026.6.22)
+---
+
 - 2026.6.14
   - Updated "5.5 Installing FreeBSD on Apple M1 with VMware Fusion Pro" to VMware Fusion Pro 26H1
   - Updated "5.4 Installing FreeBSD on Apple M1 with Parallels Desktop" to Parallels Desktop 26.3.3
