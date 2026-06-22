@@ -86,7 +86,7 @@
 * [9.4 NVIDIA Graphics Drivers](di-9-zhang-x-window-xi-tong/di-9.4-jie-nvidia-xian-ka-qu-dong.md)
 * [9.5 System Fonts](di-9-zhang-x-window-xi-tong/di-9.5-jie-xi-tong-zi-ti.md)
 * [9.6 Remote Desktop](di-9-zhang-x-window-xi-tong/di-9.6-jie-yuan-cheng-zhuo-mian.md)
-* [9.9 Root User Desktop Login](di-9-zhang-x-window-xi-tong/di-9.9-jie-root-yong-hu-zhuo-mian-deng-lu.md)
+* [9.7 Root User Desktop Login](di-9-zhang-x-window-xi-tong/di-9.7-jie-root-yong-hu-zhuo-mian-deng-lu.md)
 
 ## Chapter 10: Desktop Environments
 
