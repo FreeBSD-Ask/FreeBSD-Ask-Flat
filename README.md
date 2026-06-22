@@ -10,7 +10,7 @@ FreeBSD is a truly free (Liberty) **operating system** that, in this unpredictab
 
 > **Note**
 >
-> Approximately 6% of the chapters in this book are not yet complete. Although the existing chapters have been reviewed and revised, they are still not the final version.
+> The material before you corresponds to the third Chinese edition.
 
 This book is an open-source research work about the FreeBSD operating system.
 
@@ -29,8 +29,8 @@ WeChat Official Account: bsdcn2018
 ![Chinese FreeBSD Community (CFC) QQ Group](.gitbook/assets/2025-qq.png)
 
 - WeChat group: Due to WeChat platform restrictions, you must first join the QQ group, then contact the group owner to obtain the latest group QR code.
-- Discord: <https://discord.gg/j7VhWrhp3e> (Requires a proxy; accessible via the web client)
-- Telegram group: [https://t.me/oh_my_BSD](https://t.me/oh_my_BSD) (Requires a proxy)
+- **Discord**: <https://discord.gg/j7VhWrhp3e> (Requires a proxy; accessible via the web client)
+- **Telegram**: [https://t.me/oh_my_BSD](https://t.me/oh_my_BSD) (Requires a proxy)
 
 ## Electronic Documents
 
@@ -47,12 +47,6 @@ For mobile reading, we recommend using [WeChat Reading](https://play.google.com/
 The e-books are powered by the [GitBook PDF/EPUB Export Tool](https://github.com/FreeBSD-Ask/gitbook-pdf-export) developed by [safreya](https://github.com/safreya), which converts GitBook projects into PDF and EPUB format documents.
 
 ## Deployment Addresses
-
-This book is accessible through three subdomains, each using a different website architecture:
-
-- <https://book.bsdcn.org>
-- <https://docs.bsdcn.org>
-- <https://doc.bsdcn.org> (Better access speed within mainland China)
 
 The Chinese FreeBSD Community (CFC) does not deploy this book through any other domains. The sole official domain is `bsdcn.org`.
 
@@ -105,51 +99,6 @@ If you believe this work infringes on your rights, please contact ykla via email
 ## Project History
 
 "FreeBSD Ask" began on March 14, 2021. Its prototype can be traced back to the article "An Introduction to the Art, Science, and Philosophy of FreeBSD" published by ykla on December 31, 2020.
-
-<!-- GA_STATS:START -->
-
-## Statistics
-
-Since June 1, 2022, the visit statistics for this book are as follows:
-
-| Metric | Statistics |
-| ------ | ---------- |
-| Total users | 54,611 |
-| Sessions | 103,765 |
-| Pageviews | 664,202 |
-| Average session duration | 8 min 14 sec |
-
-<!-- GA_STATS:END -->
-
-<!-- GA_BADGES:START -->
-
-![Total users](https://img.shields.io/badge/Total_users-54,611-green)
-![Sessions](https://img.shields.io/badge/Sessions-103,765-orange)
-![Pageviews](https://img.shields.io/badge/Pageviews-664,202-blue)
-![Average session duration](https://img.shields.io/badge/Avg_session_duration-8min14s-purple)
-
-<!-- GA_BADGES:END -->
-
-The above statistics are provided by [Google Analytics](https://analytics.google.com/).
-
----
-
-![GitHub repository status chart](https://repobeats.axiom.co/api/embed/0268f0741b1257dd58a7489442bd7829d2670313.svg "Repobeats analytics image")
-
-The above chart is provided by [Repobeats analytics image](https://repobeats.axiom.co/).
-
----
-
-<!-- CHINESE_CHAR_COUNT_START -->
-Total word count: 948,900 characters;
-
-Statistics generated at: 2026-06-13 19:17:34 (Beijing Time)
-
-Compared to last week: +53,700 characters (+6.00%)
-
-Compared to last month: +107,800 characters (+12.82%)
-
-<!-- CHINESE_CHAR_COUNT_END -->
 
 ## ⭐ History
 
