@@ -8,7 +8,7 @@ FreeBSD is a truly free (Liberty) **operating system** that, in this unpredictab
 
 ## Summary
 
-> **Note**
+> [!Warning]
 >
 > The material before you corresponds to the third Chinese edition.
 
